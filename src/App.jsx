@@ -1,19 +1,19 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './Component/CommonComponent/Header/Header'
+import './Stylesheet/Home/Header/Header.css'
+import './Stylesheet/Navbar/Navbar.css'
 import { Route, Routes } from 'react-router-dom'
+import Home1 from './Component/HomePage/Home1'
 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-  <Header />
-    </>
-  //  <Routes>
-  //   <Route index element={<Home1 />} />
-  //  </Routes>
+   
+   <Routes>
+    <Route index element={<Home1 />} />
+   </Routes>
   )
 }
 

@@ -1,0 +1,75 @@
+.navbar{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 999;
+   }
+
+   .appbar{
+    background-image: url("/src/assets/bgImg/bgImage.webp");
+   }
+  
+   .appbar stick{ 
+    background-color: rgba(19,23,64,0.80) !important;
+   }
+   
+   .navbar-collapse {
+    flex-grow: 0 !important;
+   }
+
+   .nav-link{
+    color: white !important;
+    padding: 40px 0px !important;
+  }
+  
+  .nav-link:hover{
+    color: #FF06B7 !important;
+  }
+
+  .navButton{
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+  }
+
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: url(/src/assets/Header/list.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   filter: brightness(14.5);
+    
+  }
+  
+  .navbar-toggler:focus{
+    box-shadow: none !important ;
+  }
+
+
+  @media (max-width: 767px) {
+    .container{
+      padding: 15px !important;
+    }
+  
+  
+  .appbar h1{
+      font-size: 32px !important;
+      line-height: 42px !important;
+      margin-bottom: 10px !important;
+    }
+
+  .navbar-collapse {
+    box-shadow: 0px 0px 3px #131740, -2px -2px 3px #131740 !important; 
+    background: rgba(19,23,64,0.80) !important;
+    position: absolute !important;
+    top: 59px !important;
+    right: 0 !important;
+    width: 50% !important;
+  }
+  
+
+  }

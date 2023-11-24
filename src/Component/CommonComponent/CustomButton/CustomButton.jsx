@@ -1,12 +1,13 @@
-// import React from 'react'
+import React from 'react'
+// import { Button } from 'react-bootstrap'
 
-// export default function CustomButton() {
+export default function CustomButton({ className, buttonTitle}) {
     
-//   return (
-//     <div className="buttonWrapper">
-//                 <Button className={`border-pink navButton fs-18 fw-bold`}>
-//                   {buttonTitle}
-//                 </Button>
-//               </div>
-//   )
-// }
+  return (
+    <div className="buttonWrapper">
+                <button className={`${className} text-white fs-18 fw-bold`}>
+                  {buttonTitle}
+                </button>
+              </div>
+  )
+}

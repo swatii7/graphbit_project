@@ -4,6 +4,7 @@
   font-size: 16px !important;
  }
 
+
  .dropdown-menu{
   background-color: #131740 !important;
 width: 230px !important;
@@ -22,29 +23,9 @@ border-radius: 0px !important;
   color: #FF06B7 !important;
  }
 
- .bg-pink{
-  background-color: #FF06B7 !important;
- }
-
- .text-pink{
+ .dropdown-item:focus{
+  background: #232861 !important;
   color: #FF06B7 !important;
- }
-
- .border-pink{
-  border-color: #FF06B7 !important;
- }
-
- .appbar{
-  background-image: url("/src/assets/bgImg/bgImage.webp");
-  background-size:cover ;
- }
-
- .appbar stick{ 
-  background-color: rgba(19,23,64,0.80) !important;
- }
- 
- .navbar-collapse {
-  flex-grow: 0 !important;
  }
 
  #collasible-nav-dropdown{
@@ -55,17 +36,6 @@ border-radius: 0px !important;
  border-radius: 0 !important;
  }
 
-/* .dropdown:hover{
-  visibility: visible !important;
-} */
-
-.nav-link{
-  color: white !important;
-}
-
-.nav-link:hover{
-  color: #FF06B7 !important;
-}
 
 .dropdown-toggle::after {
     display: none !important;
@@ -78,50 +48,46 @@ border-radius: 0px !important;
     border-left: 0 !important;
 }
 
+.dropdown-menu{
+  top: 100% !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+  top: 100%;
+  left: 0;
+  margin-top: 0px !important;
+}
 
 .bg-image{
   background-image: url("/src/assets/bgImg/bgImage.webp");
   background-size:cover ;
 }
 
-.navButton{
-  padding: 8px 20px !important;
+
+.pink-btn{
   border: 1px solid #FF06B7;
   background-image: linear-gradient(30deg, #FF06B7 50%, transparent 50%);
-  background-size: 500px;
-  background-repeat: no-repeat;
-  background-position: 0%;
-  
-  font-size: 18px !important;
-  font-weight: 700 !important;
 }
 
-.navButton:hover{
+.purple-btn{
+  border: 1px solid #AB46D2;
+  background-image: linear-gradient(30deg, #AB46D2 50%, transparent 50%);
+}
+
+.purple-btn:hover{
+  color: #AB46D2 !important;
+  background-position: 100% !important;
+  background-color: transparent !important;
+  background-image: linear-gradient(30deg, #AB46D2 50%, transparent 50%);
+}
+
+.pink-btn:hover{
   color: #FF06B7 !important;
   background-position: 100% !important;
   background-color: transparent !important;
   background-image: linear-gradient(30deg, #FF06B7 50%, transparent 50%);
 }
 
-.btn{
-  transition: background 300ms ease-in-out !important;
-}
-
-.navbar-toggler-icon {
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-  background-image: url(/src/assets/Header/list.png);
-  background-repeat: no-repeat;
-  background-position: center;
- filter: brightness(14.5);
-  
-}
-
-.navbar-toggler:focus{
-  box-shadow: none !important ;
-}
 
 .buttonWrapper{
   margin-left: 60px;
@@ -140,9 +106,16 @@ border-radius: 0px !important;
 }
 
 @media (max-width: 767px) {
+
 .buttonWrapper{
   margin-left: 16px !important;
   margin-top: 10px !important;
+}
 
 }
+
+@media (min-width: 768px) and (max-width:992px){
+  .container{
+    max-width: 720px !important;
+  }
 }
