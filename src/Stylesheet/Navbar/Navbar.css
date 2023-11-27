@@ -6,12 +6,29 @@
     z-index: 999;
    }
 
+.navbar-brand::selection{
+  background-color: gray;
+}
+
+.tokenButton{
+  display: none;
+}
+
    .appbar{
-    background-image: url("/src/assets/bgImg/bgImage.webp");
+    background: transparent;
+    position: absolute !important;
    }
+
   
-   .appbar stick{ 
-    background-color: rgba(19,23,64,0.80) !important;
+   .bg-stick{ 
+    left: 0;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+    box-shadow: 0px 0px 3px #131740, -2px -2px 3px #131740;
+    background: rgba(19,23,64,0.80);
+
    }
    
    .navbar-collapse {
@@ -54,6 +71,10 @@
     .container{
       padding: 15px !important;
     }
+
+    .tokenButton{
+      display: none !important;
+    }
   
   
   .appbar h1{
@@ -63,13 +84,30 @@
     }
 
   .navbar-collapse {
-    box-shadow: 0px 0px 3px #131740, -2px -2px 3px #131740 !important; 
+    box-shadow: 0px 0px 3px #131740, -2px -2px 3px #131740 !important;
     background: rgba(19,23,64,0.80) !important;
     position: absolute !important;
-    top: 59px !important;
+    top: 76px !important;
     right: 0 !important;
-    width: 50% !important;
+    width: 81% !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
   }
-  
 
+  .nav-item{
+    font-size: 24px !important;
+  }
+
+  .token-btn{
+    font-size: 24px !important;
+  }
+
+
+
+  }
+
+  @media (min-width: 768px) and (max-width: 990px){
+    .tokenButton{
+      display: block !important;
+    }
   }

@@ -4,10 +4,10 @@ import React from 'react'
 export default function CustomButton({ className, buttonTitle}) {
     
   return (
-    <div className="buttonWrapper">
+    
                 <button className={`${className} text-white fs-18 fw-bold`}>
                   {buttonTitle}
                 </button>
-              </div>
+            
   )
 }

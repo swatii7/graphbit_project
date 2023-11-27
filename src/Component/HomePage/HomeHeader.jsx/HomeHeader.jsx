@@ -2,34 +2,39 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import headerImage from '../../../assets/Header/headerImg.webp'
 import CustomButton from '../../CommonComponent/CustomButton/CustomButton'
+import WOW from 'wowjs';
+import 'animate.css';
 
 export default function HomeHeader() {
   return (
-    <header className="appbar stick position-absolute ">
-    <Container className='px-15 mt-100 headerContainer'>
+    <div className="position-absolute headerWrapper">
+    <Container className='px-15 headerContainer'>
     <Row className="d-flex">
       <Col sm={12} md={6} lg={6}>
-      <div className='mt-20'>
-<div>
-<h1 className='font-josefin fs-68 fw-700 lh-76'>The blockchain 
+      <div className='mt-20 wow animate__animated animate__fadeInUp'>
+
+<h1 className='font-josefin fs-68 homeHeading fw-700 lh-76 mb-20'>The blockchain 
 <br />
   <span className='text-pink fw-800 lh-76'>technology </span>
   for a brighter tomorrow 
 </h1>
-</div>
+
       </div>
-      <div className='d-flex'>
+      <div className='d-flex buttonWrappper mt-15 align-items-end wow animate__animated animate__fadeInUp'>
         <CustomButton buttonTitle='Get Started'
-         className="pink-btn navButton transition-btn py-12 px-20" />
+         className="pink-btn navButton transition-btn py-12 px-20 mt-15" />
         <CustomButton buttonTitle='White Paper'
-        className="purple-btn navButton transition-btn py-12 px-20" />
+        className="purple-btn navButton transition-btn py-12 px-20 mt-15 ml-20" />
       </div>
       </Col>
       <Col sm={12} md={6} lg={6}>
-      <img src={headerImage} style={{maxWidth:'540px'}} className='img-fluid homeHeaderImage' />
+        <div className='wow animate__animated animate__fadeInUp'>
+        <img src={headerImage} style={{maxWidth:'540px'}} className='img-fluid homeHeaderImage' />
+        </div>
+      
       </Col>
     </Row>
     </Container>
-    </header>
+    </div>
   )
 }

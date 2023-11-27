@@ -99,6 +99,7 @@ border-radius: 0px !important;
   --bs-btn-hover-border-color: #FF06B7 !important;
 }
 
+
 @media (min-width:1320px) {
   .container{
     max-width: 1140px !important;

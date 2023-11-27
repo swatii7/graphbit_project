@@ -1,15 +1,36 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { ChevronDown } from "react-bootstrap-icons";
 import {Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
 import navLogo from "../../../assets/Header/navLogo.webp";
 import CustomButton from "../CustomButton/CustomButton";
 
 export default function Appbar() {
+  const [isScrolled, setIsScrolled] = useState(false);
   const [state, setstate] = useState({
     openHomeDropdown: false,
     openPageDropdown: false,
     openBlogDropdown: false,
   });
+
+  useEffect(() => {
+    // Function to handle scroll events
+    const handleScroll = () => {
+      // Check if the user has scrolled
+      const scrolled = window.scrollY > 0;
+
+      // Update state based on the scroll position
+      setIsScrolled(scrolled);
+    };
+
+    // Attach the scroll event listener when the component mounts
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
 
   const handleHover = (key) => {
     const updatedState = {
@@ -34,7 +55,7 @@ export default function Appbar() {
   };
 
   return (
-    <Navbar collapseOnSelect expand="xl" className="py-0 position-absolute">
+    <Navbar bg={isScrolled? 'stick': ''}  collapseOnSelect expand="xl" className="appbar">
       <Container>
         <Navbar.Brand href="#home">
           <img
@@ -43,11 +64,20 @@ export default function Appbar() {
             alt="React Bootstrap logo"
           />
         </Navbar.Brand>
+        
+        <div className="py-40 ml-60 tokenButton">
+              <CustomButton
+                className="pink-btn navButton transition-btn py-8 px-20"
+                buttonTitle="Buy Token"
+              />
+            </div>
+       
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           className="toggler"
         />
         <Navbar.Collapse id="responsive-navbar-nav">
+       
           <Nav className="me-auto px-15 text-uppercase align-items-center">
             {/* Home tabisDropdownOpen */}
 
@@ -144,14 +174,16 @@ export default function Appbar() {
             >
               contact Us
             </Nav.Link>
-            <div className="py-40">
+            <div className="py-40 ml-60 d-md-none d-lg-flex">
               <CustomButton
-                className="pink-btn navButton transition-btn py-8 px-20"
+                className="pink-btn navButton token-btn transition-btn py-8 px-20"
                 buttonTitle="Buy Token"
               />
             </div>
           </Nav>
         </Navbar.Collapse>
+       
+       
       </Container>
     </Navbar>
   );

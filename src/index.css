@@ -1,497 +1,501 @@
 .lh-76{
-  line-height: 76px !important;
+  line-height: 76px;
+ }
+
+ .lh-48{
+  line-height: 48px;
  }
 
 .pt-10 {
-  padding-top: 10px !important;
+  padding-top: 10px;
 }
 
 .pt-15 {
-  padding-top: 15px !important;
+  padding-top: 15px;
 }
 
 .pt-20 {
-  padding-top: 20px !important;
+  padding-top: 20px;
 }
 
 .pt-25 {
-  padding-top: 25px !important;
+  padding-top: 25px;
 }
 
 .pt-30 {
-  padding-top: 30px !important;
+  padding-top: 30px;
 }
 
 .pt-35 {
-  padding-top: 35px !important;
+  padding-top: 35px;
 }
 
 .pt-40 {
-  padding-top: 40px !important;
+  padding-top: 40px;
 }
 
 .pt-45 {
-  padding-top: 45px !important;
+  padding-top: 45px;
 }
 
 .pt-50 {
-  padding-top: 50px !important;
+  padding-top: 50px;
 }
 
 .pt-55 {
-  padding-top: 55px !important;
+  padding-top: 55px;
 }
 
 .pt-60 {
-  padding-top: 60px !important;
+  padding-top: 60px;
 }
 
 .pt-65 {
-  padding-top: 65px !important;
+  padding-top: 65px;
 }
 
 .pt-70 {
-  padding-top: 70px !important;
+  padding-top: 70px;
 }
 
 .pt-75 {
-  padding-top: 75px !important;
+  padding-top: 75px;
 }
 
 .pt-80 {
-  padding-top: 80px !important;
+  padding-top: 80px;
 }
 
 .pt-85 {
-  padding-top: 85px !important;
+  padding-top: 85px;
 }
 
 .pt-90 {
-  padding-top: 90px !important;
+  padding-top: 90px;
 }
 
 .pt-95 {
-  padding-top: 95px !important;
+  padding-top: 95px;
 }
 
 .pt-100 {
-  padding-top: 100px !important;
+  padding-top: 100px;
 }
 
 
 /* Padding Bottom */
 .pb-10 {
-  padding-bottom: 10px !important;
+  padding-bottom: 10px;
 }
 
 .pb-15 {
-  padding-bottom: 15px !important;
+  padding-bottom: 15px;
 }
 
 .pb-20 {
-  padding-bottom: 20px !important;
+  padding-bottom: 20px;
 }
 
 .pb-25 {
-  padding-bottom: 25px !important;
+  padding-bottom: 25px;
 }
 
 .pb-30 {
-  padding-bottom: 30px !important;
+  padding-bottom: 30px;
 }
 
 .pb-35 {
-  padding-bottom: 35px !important;
+  padding-bottom: 35px;
 }
 
 .pb-40 {
-  padding-bottom: 40px !important;
+  padding-bottom: 40px;
 }
 
 .pb-45 {
-  padding-bottom: 45px !important;
+  padding-bottom: 45px;
 }
 
 .pb-50 {
-  padding-bottom: 50px !important;
+  padding-bottom: 50px;
 }
 
 .pb-55 {
-  padding-bottom: 55px !important;
+  padding-bottom: 55px;
 }
 
 .pb-60 {
-  padding-bottom: 60px !important;
+  padding-bottom: 60px;
 }
 
 .pb-65 {
-  padding-bottom: 65px !important;
+  padding-bottom: 65px;
 }
 
 .pb-70 {
-  padding-bottom: 70px !important;
+  padding-bottom: 70px;
 }
 
 .pb-75 {
-  padding-bottom: 75px !important;
+  padding-bottom: 75px;
 }
 
 .pb-80 {
-  padding-bottom: 80px !important;
+  padding-bottom: 80px;
 }
 
 .pb-85 {
-  padding-bottom: 85px !important;
+  padding-bottom: 85px;
 }
 
 .pb-90 {
-  padding-bottom: 90px !important;
+  padding-bottom: 90px;
 }
 
 .pb-95 {
-  padding-bottom: 95px !important;
+  padding-bottom: 95px;
 }
 
 .pb-100 {
-  padding-bottom: 100px !important;
+  padding-bottom: 100px;
 }
 
 
 /* Padding Left */
 .pl-10 {
-  padding-left: 10px !important;
+  padding-left: 10px;
 }
 
 .pl-15 {
-  padding-left: 15px !important;
+  padding-left: 15px;
 }
 
 .pl-20 {
-  padding-left: 20px !important;
+  padding-left: 20px;
 }
 
 .pl-25 {
-  padding-left: 25px !important;
+  padding-left: 25px;
 }
 
 .pl-30 {
-  padding-left: 30px !important;
+  padding-left: 30px;
 }
 
 .pl-35 {
-  padding-left: 35px !important;
+  padding-left: 35px;
 }
 
 .pl-40 {
-  padding-left: 40px !important;
+  padding-left: 40px;
 }
 
 .pl-45 {
-  padding-left: 45px !important;
+  padding-left: 45px;
 }
 
 .pl-50 {
-  padding-left: 50px !important;
+  padding-left: 50px;
 }
 
 .pl-55 {
-  padding-left: 55px !important;
+  padding-left: 55px;
 }
 
 .pl-60 {
-  padding-left: 60px !important;
+  padding-left: 60px;
 }
 
 .pl-65 {
-  padding-left: 65px !important;
+  padding-left: 65px;
 }
 
 .pl-70 {
-  padding-left: 70px !important;
+  padding-left: 70px;
 }
 
 .pl-75 {
-  padding-left: 75px !important;
+  padding-left: 75px;
 }
 
 .pl-80 {
-  padding-left: 80px !important;
+  padding-left: 80px;
 }
 
 .pl-85 {
-  padding-left: 85px !important;
+  padding-left: 85px;
 }
 
 .pl-90 {
-  padding-left: 90px !important;
+  padding-left: 90px;
 }
 
 .pl-95 {
-  padding-left: 95px !important;
+  padding-left: 95px;
 }
 
 .pl-100 {
-  padding-left: 100px !important;
+  padding-left: 100px;
 }
 
 
 /* Padding Right */
 .pr-10 {
-  padding-right: 10px !important;
+  padding-right: 10px;
 }
 
 .pr-15 {
-  padding-right: 15px !important;
+  padding-right: 15px;
 }
 
 .pr-20 {
-  padding-right: 20px !important;
+  padding-right: 20px;
 }
 
 .pr-25 {
-  padding-right: 25px !important;
+  padding-right: 25px;
 }
 
 .pr-30 {
-  padding-right: 30px !important;
+  padding-right: 30px;
 }
 
 .pr-35 {
-  padding-right: 35px !important;
+  padding-right: 35px;
 }
 
 .pr-40 {
-  padding-right: 40px !important;
+  padding-right: 40px;
 }
 
 .pr-45 {
-  padding-right: 45px !important;
+  padding-right: 45px;
 }
 
 .pr-50 {
-  padding-right: 50px !important;
+  padding-right: 50px;
 }
 
 .pr-55 {
-  padding-right: 55px !important;
+  padding-right: 55px;
 }
 
 .pr-60 {
-  padding-right: 60px !important;
+  padding-right: 60px;
 }
 
 .pr-65 {
-  padding-right: 65px !important;
+  padding-right: 65px;
 }
 
 .pr-70 {
-  padding-right: 70px !important;
+  padding-right: 70px;
 }
 
 .pr-75 {
-  padding-right: 75px !important;
+  padding-right: 75px;
 }
 
 .pr-80 {
-  padding-right: 80px !important;
+  padding-right: 80px;
 }
 
 .pr-85 {
-  padding-right: 85px !important;
+  padding-right: 85px;
 }
 
 .pr-90 {
-  padding-right: 90px !important;
+  padding-right: 90px;
 }
 
 .pr-95 {
-  padding-right: 95px !important;
+  padding-right: 95px;
 }
 
 .pr-100 {
-  padding-right: 100px !important;
+  padding-right: 100px;
 }
 
 
 /* padding right and left */
 .px-5{
-  padding-left: 5px !important;
-  padding-right: 5px !important;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .px-10{
-  padding-left: 10px !important;
-  padding-right: 10px !important;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .px-15{
-  padding-left: 15px !important;
-  padding-right: 15px !important;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .px-20{
-  padding-left: 20px !important;
-  padding-right: 20px !important;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .px-25{
-  padding-left: 25px !important;
-  padding-right: 25px !important;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .px-30{
-  padding-left: 30px !important;
-  padding-right: 30px !important;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .px-35{
-  padding-left: 35px !important;
-  padding-right: 35px !important;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 .px-40{
-  padding-left: 40px !important;
-  padding-right: 40px !important;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .px-45{
-  padding-left: 45px !important;
-  padding-right: 45px !important;
+  padding-left: 45px;
+  padding-right: 45px;
 }
 .px-50{
-  padding-left: 50px !important;
-  padding-right: 50px !important;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .px-55{
-  padding-left: 55px !important;
-  padding-right: 55px !important;
+  padding-left: 55px;
+  padding-right: 55px;
 }
 .px-60{
-  padding-left: 60px !important;
-  padding-right: 60px !important;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 .px-65{
-  padding-left: 65px !important;
-  padding-right: 65px !important;
+  padding-left: 65px;
+  padding-right: 65px;
 }
 .px-70{
-  padding-left: 70px !important;
-  padding-right: 70px !important;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 .px-75{
-  padding-left: 75px !important;
-  padding-right: 75px !important;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 .px-80{
-  padding-left: 80px !important;
-  padding-right: 80px !important;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 .px-85{
-  padding-left: 85px !important;
-  padding-right: 85px !important;
+  padding-left: 85px;
+  padding-right: 85px;
 }
 .px-90{
-  padding-left: 90px !important;
-  padding-right: 90px !important;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 .px-95{
-  padding-left: 95px !important;
-  padding-right: 95px !important;
+  padding-left: 95px;
+  padding-right: 95px;
 }
 .px-100{
-  padding-left: 100px !important;
-  padding-right: 100px !important;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 /* padding top and bottom */
 
 .py-0{
-padding-top: 0px !important;
-padding-bottom: 0px !important;
+padding-top: 0px;
+padding-bottom: 0px;
 }
 
 .py-5{
-  padding-top: 5px !important;
-  padding-bottom: 5px !important;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .py-8{
-  padding-top: 8px !important;
-  padding-bottom: 8px !important;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .py-10{
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .py-12{
   padding-top: 12px;
   padding-bottom: 12px;
 }
 .py-15{
-  padding-top: 15px !important;
-  padding-bottom: 15px !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .py-20{
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .py-25{
-  padding-top: 25px !important;
-  padding-bottom: 25px !important;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .py-30{
-  padding-top: 30px !important;
-  padding-bottom: 30px !important;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .py-35{
-  padding-top: 35px !important;
-  padding-bottom: 35px !important;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 .py-40{
-  padding-top: 40px !important;
-  padding-bottom: 40px !important;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .py-45{
-  padding-top: 45px !important;
-  padding-bottom: 45px !important;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
 .py-50{
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .py-55{
-  padding-top: 55px !important;
-  padding-bottom: 55px !important;
+  padding-top: 55px;
+  padding-bottom: 55px;
 }
 .py-60{
-  padding-top: 60px !important;
-  padding-bottom: 60px !important;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .py-65{
-  padding-top: 65px !important;
-  padding-bottom: 65px !important;
+  padding-top: 65px;
+  padding-bottom: 65px;
 }
 .py-70{
-  padding-top: 70px !important;
-  padding-bottom: 70px !important;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .py-75{
-  padding-top: 75px !important;
-  padding-bottom: 75px !important;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 .py-80{
-  padding-top: 80px !important;
-  padding-bottom: 80px !important;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .py-85{
-  padding-top: 85px !important;
-  padding-bottom: 85px !important;
+  padding-top: 85px;
+  padding-bottom: 85px;
 }
 .py-90{
-  padding-top: 90px !important;
-  padding-bottom: 90px !important;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 .py-95{
-  padding-top: 95px !important;
-  padding-bottom: 95px !important;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 .py-100{
-  padding-top: 100px !important;
-  padding-bottom: 100px !important;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 
@@ -502,885 +506,889 @@ padding-bottom: 0px !important;
 }
 
 .mt-95 {
-  margin-top: 95px !important;
+  margin-top: 95px;
 }
 
 .mt-90 {
-  margin-top: 90px !important;
+  margin-top: 90px;
 }
 
 .mt-85 {
-  margin-top: 85px !important;
+  margin-top: 85px;
 }
 
 .mt-80 {
-  margin-top: 80px !important;
+  margin-top: 80px;
 }
 
 .mt-75 {
-  margin-top: 75px !important;
+  margin-top: 75px;
 }
 
 .mt-70 {
-  margin-top: 70px !important;
+  margin-top: 70px;
 }
 
 .mt-65 {
-  margin-top: 65px !important;
+  margin-top: 65px;
 }
 
 .mt-60 {
-  margin-top: 60px !important;
+  margin-top: 60px;
 }
 
 .mt-55 {
-  margin-top: 55px !important;
+  margin-top: 55px;
 }
 
 .mt-50 {
-  margin-top: 50px !important;
+  margin-top: 50px;
 }
 
 .mt-45 {
-  margin-top: 45px !important;
+  margin-top: 45px;
 }
 
 .mt-40 {
-  margin-top: 40px !important;
+  margin-top: 40px;
 }
 
 .mt-35 {
-  margin-top: 35px !important;
+  margin-top: 35px;
 }
 
 .mt-30 {
-  margin-top: 30px !important;
+  margin-top: 30px;
 }
 
 .mt-25 {
-  margin-top: 25px !important;
+  margin-top: 25px;
 }
 
 .mt-20 {
-  margin-top: 20px !important;
+  margin-top: 20px;
 }
 
 .mt-15 {
-  margin-top: 15px !important;
+  margin-top: 15px;
 }
 
 .mt-10 {
-  margin-top: 10px !important;
+  margin-top: 10px;
 }
 
 /* margin bottom styles.css */
 .mb-10 {
-  margin-bottom: 10px !important;
+  margin-bottom: 10px;
 }
 
 .mb-15 {
-  margin-bottom: 15px !important;
+  margin-bottom: 15px;
 }
 
 .mb-20 {
-  margin-bottom: 20px !important;
+  margin-bottom: 20px;
 }
 
 .mb-25 {
-  margin-bottom: 25px !important;
+  margin-bottom: 25px;
 }
 
 .mb-30 {
-  margin-bottom: 30px !important;
+  margin-bottom: 30px;
 }
 
 .mb-35 {
-  margin-bottom: 35px !important;
+  margin-bottom: 35px;
 }
 
 .mb-40 {
-  margin-bottom: 40px !important;
+  margin-bottom: 40px;
 }
 
 .mb-45 {
-  margin-bottom: 45px !important;
+  margin-bottom: 45px;
 }
 
 .mb-50 {
-  margin-bottom: 50px !important;
+  margin-bottom: 50px;
 }
 
 .mb-55 {
-  margin-bottom: 55px !important;
+  margin-bottom: 55px;
 }
 
 .mb-60 {
-  margin-bottom: 60px !important;
+  margin-bottom: 60px;
 }
 
 .mb-65 {
-  margin-bottom: 65px !important;
+  margin-bottom: 65px;
 }
 
 .mb-70 {
-  margin-bottom: 70px !important;
+  margin-bottom: 70px;
 }
 
 .mb-75 {
-  margin-bottom: 75px !important;
+  margin-bottom: 75px;
 }
 
 .mb-80 {
-  margin-bottom: 80px !important;
+  margin-bottom: 80px;
 }
 
 .mb-85 {
-  margin-bottom: 85px !important;
+  margin-bottom: 85px;
 }
 
 .mb-90 {
-  margin-bottom: 90px !important;
+  margin-bottom: 90px;
 }
 
 .mb-95 {
-  margin-bottom: 95px !important;
+  margin-bottom: 95px;
 }
 
 .mb-100 {
-  margin-bottom: 100px !important;
+  margin-bottom: 100px;
 }
 
 
 /*  margin left styles.css */
 .ml-10 {
-  margin-left: 10px !important;
+  margin-left: 10px;
 }
 
 .ml-15 {
-  margin-left: 15px !important;
+  margin-left: 15px;
 }
 
 .ml-20 {
-  margin-left: 20px !important;
+  margin-left: 20px;
 }
 
 .ml-25 {
-  margin-left: 25px !important;
+  margin-left: 25px;
 }
 
 .ml-30 {
-  margin-left: 30px !important;
+  margin-left: 30px;
 }
 
 .ml-35 {
-  margin-left: 35px !important;
+  margin-left: 35px;
 }
 
 .ml-40 {
-  margin-left: 40px !important;
+  margin-left: 40px;
 }
 
 .ml-45 {
-  margin-left: 45px !important;
+  margin-left: 45px;
 }
 
 .ml-50 {
-  margin-left: 50px !important;
+  margin-left: 50px;
 }
 
 .ml-55 {
-  margin-left: 55px !important;
+  margin-left: 55px;
 }
 
 .ml-60 {
-  margin-left: 60px !important;
+  margin-left: 60px;
 }
 
 .ml-65 {
-  margin-left: 65px !important;
+  margin-left: 65px;
 }
 
 .ml-70 {
-  margin-left: 70px !important;
+  margin-left: 70px;
 }
 
 .ml-75 {
-  margin-left: 75px !important;
+  margin-left: 75px;
 }
 
 .ml-80 {
-  margin-left: 80px !important;
+  margin-left: 80px;
 }
 
 .ml-85 {
-  margin-left: 85px !important;
+  margin-left: 85px;
 }
 
 .ml-90 {
-  margin-left: 90px !important;
+  margin-left: 90px;
 }
 
 .ml-95 {
-  margin-left: 95px !important;
+  margin-left: 95px;
 }
 
 .ml-100 {
-  margin-left: 100px !important;
+  margin-left: 100px;
 }
 
 /*  margin styles.css */
 .mr-10 {
-  margin-right: 10px !important;
+  margin-right: 10px;
 }
 
 .mr-15 {
-  margin-right: 15px !important;
+  margin-right: 15px;
 }
 
 .mr-20 {
-  margin-right: 20px !important;
+  margin-right: 20px;
 }
 
 .mr-25 {
-  margin-right: 25px !important;
+  margin-right: 25px;
 }
 
 .mr-30 {
-  margin-right: 30px !important;
+  margin-right: 30px;
 }
 
 .mr-35 {
-  margin-right: 35px !important;
+  margin-right: 35px;
 }
 
 .mr-40 {
-  margin-right: 40px !important;
+  margin-right: 40px;
 }
 
 .mr-45 {
-  margin-right: 45px !important;
+  margin-right: 45px;
 }
 
 .mr-50 {
-  margin-right: 50px !important;
+  margin-right: 50px;
 }
 
 .mr-55 {
-  margin-right: 55px !important;
+  margin-right: 55px;
 }
 
 .mr-60 {
-  margin-right: 60px !important;
+  margin-right: 60px;
 }
 
 .mr-65 {
-  margin-right: 65px !important;
+  margin-right: 65px;
 }
 
 .mr-70 {
-  margin-right: 70px !important;
+  margin-right: 70px;
 }
 
 .mr-75 {
-  margin-right: 75px !important;
+  margin-right: 75px;
 }
 
 .mr-80 {
-  margin-right: 80px !important;
+  margin-right: 80px;
 }
 
 .mr-85 {
-  margin-right: 85px !important;
+  margin-right: 85px;
 }
 
 .mr-90 {
-  margin-right: 90px !important;
+  margin-right: 90px;
 }
 
 .mr-95 {
-  margin-right: 95px !important;
+  margin-right: 95px;
 }
 
 .mr-100 {
-  margin-right: 100px !important;
+  margin-right: 100px;
 }
 
 
 /* margin right and left */
 .mx-5{
-  margin-left: 5px !important;
-  margin-right: 5px !important;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .mx-10{
-  margin-left: 10px !important;
-  margin-right: 10px !important;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .mx-15{
-  margin-left: 15px !important;
-  margin-right: 15px !important;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .mx-20{
-  margin-left: 20px !important;
-  margin-right: 20px !important;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .mx-25{
-  margin-left: 25px !important;
-  margin-right: 25px !important;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 .mx-30{
-  margin-left: 30px !important;
-  margin-right: 30px !important;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .mx-35{
-  margin-left: 35px !important;
-  margin-right: 35px !important;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 .mx-40{
-  margin-left: 40px !important;
-  margin-right: 40px !important;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .mx-45{
-  margin-left: 45px !important;
-  margin-right: 45px !important;
+  margin-left: 45px;
+  margin-right: 45px;
 }
 .mx-50{
-  margin-left: 50px !important;
-  margin-right: 50px !important;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .mx-55{
-  margin-left: 55px !important;
-  margin-right: 55px !important;
+  margin-left: 55px;
+  margin-right: 55px;
 }
 .mx-60{
-  margin-left: 60px !important;
-  margin-right: 60px !important;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 .mx-65{
-  margin-left: 65px !important;
-  margin-right: 65px !important;
+  margin-left: 65px;
+  margin-right: 65px;
 }
 .mx-70{
-  margin-left: 70px !important;
-  margin-right: 70px !important;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 .mx-75{
-  margin-left: 75px !important;
-  margin-right: 75px !important;
+  margin-left: 75px;
+  margin-right: 75px;
 }
 .mx-80{
-  margin-left: 80px !important;
-  margin-right: 80px !important;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 .mx-85{
-  margin-left: 85px !important;
-  margin-right: 85px !important;
+  margin-left: 85px;
+  margin-right: 85px;
 }
 .mx-90{
-  margin-left: 90px !important;
-  margin-right: 90px !important;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 .mx-95{
-  margin-left: 95px !important;
-  margin-right: 95px !important;
+  margin-left: 95px;
+  margin-right: 95px;
 }
 .mx-100{
-  margin-left: 100px !important;
-  margin-right: 100px !important;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 /* margin top and bottom */
 .my-5{
-  margin-top: 5px !important;
-  margin-bottom: 5px !important;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .my-10{
-  margin-top: 10px !important;
-  margin-bottom: 10px !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .my-15{
-  margin-top: 15px !important;
-  margin-bottom: 15px !important;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .my-20{
-  margin-top: 20px !important;
-  margin-bottom: 20px !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .my-25{
-  margin-top: 25px !important;
-  margin-bottom: 25px !important;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .my-30{
-  margin-top: 30px !important;
-  margin-bottom: 30px !important;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .my-35{
-  margin-top: 35px !important;
-  margin-bottom: 35px !important;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 .my-40{
-  margin-top: 40px !important;
-  margin-bottom: 40px !important;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .my-45{
-  margin-top: 45px !important;
-  margin-bottom: 45px !important;
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
 .my-50{
-  margin-top: 50px !important;
-  margin-bottom: 50px !important;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .my-55{
-  margin-top: 55px !important;
-  margin-bottom: 55px !important;
+  margin-top: 55px;
+  margin-bottom: 55px;
 }
 .my-60{
-  margin-top: 60px !important;
-  margin-bottom: 60px !important;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .my-65{
-  margin-top: 65px !important;
-  margin-bottom: 65px !important;
+  margin-top: 65px;
+  margin-bottom: 65px;
 }
 .my-70{
-  margin-top: 70px !important;
-  margin-bottom: 70px !important;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 .my-75{
-  margin-top: 75px !important;
-  margin-bottom: 75px !important;
+  margin-top: 75px;
+  margin-bottom: 75px;
 }
 .my-80{
-  margin-top: 80px !important;
-  margin-bottom: 80px !important;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 .my-85{
-  margin-top: 85px !important;
-  margin-bottom: 85px !important;
+  margin-top: 85px;
+  margin-bottom: 85px;
 }
 .my-90{
-  margin-top: 90px !important;
-  margin-bottom: 90px !important;
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 .my-95{
-  margin-top: 95px !important;
-  margin-bottom: 95px !important;
+  margin-top: 95px;
+  margin-bottom: 95px;
 }
 .my-100{
-  margin-top: 100px !important;
-  margin-bottom: 100px !important;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .font-josefin{
-  font-family: 'Josefin Sans', sans-serif !important;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 /* styles.css */
 .fs-14{
-  font-size: 14px !important;
+  font-size: 14px;
 }
 .fs-15 {
-  font-size: 15px !important;
+  font-size: 15px;
 }
 
 .fs-16 {
-  font-size: 16px !important;
+  font-size: 16px;
 }
 
 .fs-17 {
-  font-size: 17px !important;
+  font-size: 17px;
 }
 
 .fs-18 {
-  font-size: 18px !important;
+  font-size: 18px;
 }
 
 .fs-19 {
-  font-size: 19px !important;
+  font-size: 19px;
 }
 
 .fs-20 {
-  font-size: 20px !important;
+  font-size: 20px;
 }
 
 .fs-21 {
-  font-size: 21px !important;
+  font-size: 21px;
 }
 
 .fs-22 {
-  font-size: 22px !important;
+  font-size: 22px;
 }
 
 .fs-23 {
-  font-size: 23px !important;
+  font-size: 23px;
 }
 
 .fs-24 {
-  font-size: 24px !important;
+  font-size: 24px;
 }
 
 .fs-25 {
-  font-size: 25px !important;
+  font-size: 25px;
 }
 
 .fs-26 {
-  font-size: 26px !important;
+  font-size: 26px;
 }
 
 .fs-27 {
-  font-size: 27px !important;
+  font-size: 27px;
 }
 
 .fs-28 {
-  font-size: 28px !important;
+  font-size: 28px;
 }
 
 .fs-29 {
-  font-size: 29px !important;
+  font-size: 29px;
 }
 
 .fs-30 {
-  font-size: 30px !important;
+  font-size: 30px;
 }
 
 .fs-31 {
-  font-size: 31px !important;
+  font-size: 31px;
 }
 
 .fs-32 {
-  font-size: 32px !important;
+  font-size: 32px;
 }
 
 .fs-33 {
-  font-size: 33px !important;
+  font-size: 33px;
 }
 
 .fs-34 {
-  font-size: 34px !important;
+  font-size: 34px;
 }
 
 .fs-35 {
-  font-size: 35px !important;
+  font-size: 35px;
 }
 
 .fs-36 {
-  font-size: 36px !important;
+  font-size: 36px;
 }
 
 .fs-37 {
-  font-size: 37px !important;
+  font-size: 37px;
 }
 
 .fs-38 {
-  font-size: 38px !important;
+  font-size: 38px;
 }
 
 .fs-39 {
-  font-size: 39px !important;
+  font-size: 39px;
 }
 
 .fs-40 {
-  font-size: 40px !important;
+  font-size: 40px;
 }
 
 .fs-41 {
-  font-size: 41px !important;
+  font-size: 41px;
 }
 
 .fs-42 {
-  font-size: 42px !important;
+  font-size: 42px;
 }
 
 .fs-43 {
-  font-size: 43px !important;
+  font-size: 43px;
 }
 
 .fs-44 {
-  font-size: 44px !important;
+  font-size: 44px;
 }
 
 .fs-45 {
-  font-size: 45px !important;
+  font-size: 45px;
 }
 
 .fs-46 {
-  font-size: 46px !important;
+  font-size: 46px;
 }
 
 .fs-47 {
-  font-size: 47px !important;
+  font-size: 47px;
 }
 
 .fs-48 {
-  font-size: 48px !important;
+  font-size: 48px;
 }
 
 .fs-49 {
-  font-size: 49px !important;
+  font-size: 49px;
 }
 
 .fs-50 {
-  font-size: 50px !important;
+  font-size: 50px;
 }
 
 .fs-51 {
-  font-size: 51px !important;
+  font-size: 51px;
 }
 
 .fs-52 {
-  font-size: 52px !important;
+  font-size: 52px;
 }
 
 .fs-53 {
-  font-size: 53px !important;
+  font-size: 53px;
 }
 
 .fs-54 {
-  font-size: 54px !important;
+  font-size: 54px;
 }
 
 .fs-55 {
-  font-size: 55px !important;
+  font-size: 55px;
 }
 
 .fs-56 {
-  font-size: 56px !important;
+  font-size: 56px;
 }
 
 .fs-57 {
-  font-size: 57px !important;
+  font-size: 57px;
 }
 
 .fs-58 {
-  font-size: 58px !important;
+  font-size: 58px;
 }
 
 .fs-59 {
-  font-size: 59px !important;
+  font-size: 59px;
 }
 
 .fs-60 {
-  font-size: 60px !important;
+  font-size: 60px;
 }
 
 .fs-61 {
-  font-size: 61px !important;
+  font-size: 61px;
 }
 
 .fs-62 {
-  font-size: 62px !important;
+  font-size: 62px;
 }
 
 .fs-63 {
-  font-size: 63px !important;
+  font-size: 63px;
 }
 
 .fs-64 {
-  font-size: 64px !important;
+  font-size: 64px;
 }
 
 .fs-65 {
-  font-size: 65px !important;
+  font-size: 65px;
 }
 
 .fs-66 {
-  font-size: 66px !important;
+  font-size: 66px;
 }
 
 .fs-67 {
-  font-size: 67px !important;
+  font-size: 67px;
 }
 
 .fs-68 {
-  font-size: 68px !important;
+  font-size: 68px;
 }
 
 .fs-69 {
-  font-size: 69px !important;
+  font-size: 69px;
 }
 
 .fs-70 {
-  font-size: 70px !important;
+  font-size: 70px;
 }
 
 .fs-71 {
-  font-size: 71px !important;
+  font-size: 71px;
 }
 
 .fs-72 {
-  font-size: 72px !important;
+  font-size: 72px;
 }
 
 .fs-73 {
-  font-size: 73px !important;
+  font-size: 73px;
 }
 
 .fs-74 {
-  font-size: 74px !important;
+  font-size: 74px;
 }
 
 .fs-75 {
-  font-size: 75px !important;
+  font-size: 75px;
 }
 
 .fs-76 {
-  font-size: 76px !important;
+  font-size: 76px;
 }
 
 .fs-77 {
-  font-size: 77px !important;
+  font-size: 77px;
 }
 
 .fs-78 {
-  font-size: 78px !important;
+  font-size: 78px;
 }
 
 .fs-79 {
-  font-size: 79px !important;
+  font-size: 79px;
 }
 
 .fs-80 {
-  font-size: 80px !important;
+  font-size: 80px;
 }
 
 .fs-81 {
-  font-size: 81px !important;
+  font-size: 81px;
 }
 
 .fs-82 {
-  font-size: 82px !important;
+  font-size: 82px;
 }
 
 .fs-83 {
-  font-size: 83px !important;
+  font-size: 83px;
 }
 
 .fs-84 {
-  font-size: 84px !important;
+  font-size: 84px;
 }
 
 .fs-85 {
-  font-size: 85px !important;
+  font-size: 85px;
 }
 
 .fs-86 {
-  font-size: 86px !important;
+  font-size: 86px;
 }
 
 .fs-87 {
-  font-size: 87px !important;
+  font-size: 87px;
 }
 
 .fs-88 {
-  font-size: 88px !important;
+  font-size: 88px;
 }
 
 .fs-89 {
-  font-size: 89px !important;
+  font-size: 89px;
 }
 
 .fs-90 {
-  font-size: 90px !important;
+  font-size: 90px;
 }
 
 .fs-91 {
-  font-size: 91px !important;
+  font-size: 91px;
 }
 
 .fs-92 {
-  font-size: 92px !important;
+  font-size: 92px;
 }
 
 .fs-93 {
-  font-size: 93px !important;
+  font-size: 93px;
 }
 
 .fs-94 {
-  font-size: 94px !important;
+  font-size: 94px;
 }
 
 .fs-95 {
-  font-size: 95px !important;
+  font-size: 95px;
 }
 
 .fs-96 {
-  font-size: 96px !important;
+  font-size: 96px;
 }
 
 .fs-97 {
-  font-size: 97px !important;
+  font-size: 97px;
 }
 
 .fs-98 {
-  font-size: 98px !important;
+  font-size: 98px;
 }
 
 .fs-99 {
-  font-size: 99px !important;
+  font-size: 99px;
 }
 
 .fs-100 {
-  font-size: 100px !important;
+  font-size: 100px;
 }
 
 /* font-weight */
 .fw-100{
-  font-weight: 100 !important;
+  font-weight: 100;
 }
 .fw-200{
-  font-weight: 200 !important;
+  font-weight: 200;
 }
 .fw-300{
-  font-weight: 300 !important;
+  font-weight: 300;
 }
 .fw-400{
-  font-weight: 400 !important;
+  font-weight: 400;
 }
 .fw-500{
-  font-weight: 500 !important;
+  font-weight: 500;
 }
 .fw-600{
-  font-weight: 600 !important;
+  font-weight: 600;
 }
 .fw-700{
-  font-weight: 700 !important;
+  font-weight: 700;
 }
 .fw-800{
-  font-weight: 800 !important;
+  font-weight: 800;
 }
 .fw-900{
-  font-weight: 900 !important;
+  font-weight: 900;
 }
 
 .list-none{
-  list-style: none !important;
+  list-style: none;
 }
 
 .bg-pink{
-  background-color: #FF06B7 !important;
+  background-color: #FF06B7;
  }
 
  .bg-purple{
-  background-color: #AB46D2 !important;
+  background-color: #AB46D2;
  }
 
  .text-pink{
-  color: #FF06B7 !important;
+  color: #FF06B7;
  }
 
  .text-purple{
-  color: #AB46D2 !important;
+  color: #AB46D2;
  }
 
  .border-pink{
-  border-color: #FF06B7 !important;
+  border-color: #FF06B7;
  }
 
  .border-purple{
-  border-color: #AB46D2 !important;
+  border-color: #AB46D2;
  }
 
  .transition-btn{
-  transition: background 300ms ease-in-out !important;
+  transition: background 300ms ease-in-out;
+}
+
+.flex-wrap{
+  flex-wrap: wrap !important;
 }
