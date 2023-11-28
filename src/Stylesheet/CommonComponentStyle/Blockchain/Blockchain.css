@@ -1,0 +1,40 @@
+.blockchainWrapper{
+    padding: 130px 0 100px;
+}
+
+.servicesWrapper{
+    padding: 30px 30px 15px;
+    border-radius: 10px 50px 10px 10px;
+   margin-bottom: 30px;
+   position: relative;
+   z-index: 1;
+}
+
+.servicesWrapper::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: url(https://shtheme.com/demosd/graphbitwp/wp-content/themes/graphbit/img/feature/layer2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    z-index: -1;
+}
+
+.imgWrapper{
+    width: 111px;
+    height: 111px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 33px;
+    position: relative;
+}
+
+.imgWrapper img{
+    width: 70px;
+    height: 70px;
+}

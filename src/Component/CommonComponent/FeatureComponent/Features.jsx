@@ -30,10 +30,10 @@ export default function Features() {
             <Row className='flex-wrap'>
                 <Col>
                 <div>
-                    <div className='featureImageWrapper'>
-                        <img src={featureImg} />
+                    <div className='featureImageWrapper animate__animated animate__fadeInLeft'>
+                        <img src={featureImg} className='featureImg' />
                         <div className='circleImageWrapper rotateme'>
-                            <img src={featureBgImg} />
+                            <img src={featureBgImg} className='featureBgImage' />
                         </div>
                     </div>
                     </div>
@@ -43,12 +43,12 @@ export default function Features() {
                     <div className='position-relative d-block pt-40 pb-10 featureList'>
                         {featuresArr.map((list, index)=>
                          <div key={index} className='mb-40 featuresDiv'>
-                         <span>
+                         <span className='animate__animated animate__fadeInUp'>
                             {list.number}
                          </span>
                          <div className='pl-70'>
-                             <h4 className='featureTitle'>{list.title}</h4>
-                             <p className='featureDesc'>{list.description}</p>
+                             <h4 className='featureTitle animate__animated animate__fadeInUp'>{list.title}</h4>
+                             <p className='featureDesc animate__animated animate__fadeInUp'>{list.description}</p>
                          </div>
                      </div>
                      )}

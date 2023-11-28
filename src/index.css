@@ -2,6 +2,10 @@
   line-height: 76px;
  }
 
+ .lh-28{
+  line-height: 28px;
+ }
+
  .lh-48{
   line-height: 48px;
  }
@@ -814,6 +818,11 @@ padding-bottom: 0px;
 .mx-5{
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.mx-6{
+  margin-left: 6px;
+  margin-right: 6px;
 }
 
 .mx-10{

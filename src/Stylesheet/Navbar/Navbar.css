@@ -76,6 +76,10 @@
       display: none !important;
     }
   
+    .appbar{
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
   
   .appbar h1{
       font-size: 32px !important;

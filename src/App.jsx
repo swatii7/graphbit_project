@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import './Stylesheet/Home/Header/Header.css'
 import './Stylesheet/Navbar/Navbar.css'
+import './Stylesheet/CommonComponentStyle/Blockchain/Blockchain.css'
 import { Route, Routes } from 'react-router-dom'
 import Home1 from './Component/HomePage/Home1'
 
