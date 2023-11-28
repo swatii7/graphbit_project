@@ -6,6 +6,7 @@ import { Container, Row, Col, Overlay, Dropdown, Form } from 'react-bootstrap';
 import { Clock, ArrowDownCircleFill, ArrowDownShort } from 'react-bootstrap-icons';
 import CustomPinkButton from '../CommonComponent/CustomButton/CustomPinkButton';
 import BlockchainComponent from '../CommonComponent/CustomBlockchainComponent/BlockchainComponent';
+import Detail from '../CommonComponent/DetailComponent/Detail';
 
 
 export default function Home1() {
@@ -187,6 +188,7 @@ export default function Home1() {
    </div>
    {/*  */}
    <BlockchainComponent />
+   <Detail />
   
     </>
   
