@@ -38,3 +38,23 @@
     width: 70px;
     height: 70px;
 }
+
+
+@media(max-width:767px){
+    .blockchainService{
+        margin: 0px !important;
+    }
+
+    .blockchainService h2{
+        font-size: 36px !important;
+        line-height: 46px !important;
+    }
+
+   
+}
+
+/* @media(min-width:768px) and (max-width:990px){
+    br{
+        display: none !important;
+    }
+} */

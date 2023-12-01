@@ -1,0 +1,35 @@
+.walletWrapper{
+    background-color: #0D102D;
+    color: #fff;
+    padding: 130px 0px;
+}
+
+@media(max-width:767px){
+    .walletImgWrapper{
+        width: 330px !important;
+    }
+
+    .walletImgWrapper img{
+        max-width: 100% !important;
+    }
+
+    .walletHeading{
+        font-size: 36px !important;
+        line-height: 46px !important;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 992px){
+    .walletImgWrapper{
+        width: 330px !important;
+    }
+
+    .walletImgWrapper img{
+        max-width: 100% !important;
+    }
+
+    .walletHeading{
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+}

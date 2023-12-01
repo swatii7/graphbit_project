@@ -12,7 +12,7 @@ export default function BlockchainComponent() {
     <div className='bg-darkBlue blockchainWrapper'>
       <Container>
         <Row>
-            <Col lg={6} md={6} sm={12}>
+            <Col lg={6} md={12} sm={12}>
                 <Row>
                     <Col lg={6} md={6} sm={12}>
                         <div className='servicesWrapper bg-blue'>
@@ -72,14 +72,14 @@ export default function BlockchainComponent() {
                     </Col>
                 </Row>
             </Col>
-            <Col lg={6} md={6} sm={12}>
-                <div className='ml-60' style={{marginTop:'184px'}}>
+            <Col lg={6} md={12} sm={12}>
+                <div className='ml-60 blockchainService' style={{marginTop:'184px'}}>
                     <div className='fw-700 fs-17 mb-10 text-uppercase' style={{letterSpacing:'1px'}}>ultimate Metaverse</div>
                     <h2 className='fs-56 font-josefin fw-700 mb-15' style={{lineHeight:'64px'}}>
-                        <span className='text-pink'>
+                        <span className='text-pink mr-1'>
                             Blockchain
                         </span>
-                        <br />
+                        <br className='d-lg-block d-none' />
                         provide you best services
                     </h2>
                     <p className='fs-18'>

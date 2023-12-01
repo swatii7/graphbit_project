@@ -7,6 +7,9 @@ import { Clock, ArrowDownCircleFill, ArrowDownShort } from 'react-bootstrap-icon
 import CustomPinkButton from '../CommonComponent/CustomButton/CustomPinkButton';
 import BlockchainComponent from '../CommonComponent/CustomBlockchainComponent/BlockchainComponent';
 import Detail from '../CommonComponent/DetailComponent/Detail';
+import InvestmentPlatform from '../CommonComponent/InvestmentPlatformComponent/InvestmentPlatform';
+import Wallet from '../CommonComponent/WalletComponent/Wallet';
+import Faq from '../CommonComponent/FaqComponent/Faq';
 
 
 export default function Home1() {
@@ -56,7 +59,7 @@ export default function Home1() {
         <Col lg={6} md={6} sm={12}>
           <div>
             <div className='headingDiv mb-10'>coin swap</div>
-            <h2 className='fs-52 fw-700 font-josefin mb-15'>
+            <h2 className='fs-52 fw-700 font-josefin mb-15 coinSwapHeading'>
             You can swap
             <br />
             <span className='text-pink fw-800'>
@@ -189,7 +192,9 @@ export default function Home1() {
    {/*  */}
    <BlockchainComponent />
    <Detail />
-  
+   <InvestmentPlatform />
+   <Wallet />
+  <Faq />
     </>
   
   )

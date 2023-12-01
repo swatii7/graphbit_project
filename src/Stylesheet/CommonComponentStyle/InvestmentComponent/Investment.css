@@ -1,0 +1,115 @@
+.investmentWrapper{
+    background-color: #101436;
+    padding: 130px 0px 100px;
+}
+
+.investmentWrapper h2{
+    line-height: 64px;
+}
+
+.planWrapper{
+    padding: 40px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-image: url('https://shtheme.com/demosd/graphbitwp/wp-content/themes/graphbit/img/feature/layer3.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.planDays{
+    padding: 6px 15px !important;
+    margin-right: 15px !important;
+    text-transform: uppercase !important;
+}
+
+.planDays:active{
+    background-color: #FF06B7 !important;
+    border: 1px solid #FF06B7 !important;
+    color: #fff !important;
+}
+
+.active{
+    background-color: #FF06B7 !important;
+    border: 1px solid #FF06B7 !important;
+    color: #fff !important;
+}
+
+.planDays:hover{
+    background-color: #FF06B7 !important;
+    border: 1px solid #FF06B7 !important;
+    color: #fff !important;
+}
+
+.badgeWrapper{
+    width: 50px;
+    padding: 2px 5px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.faqWrapper{
+    background-color: #101436;
+    padding: 130px 0px;
+}
+
+.list-group-item:first-child {
+    /* border-top-left-radius: 2px !important;
+    border-top-right-radius: 2px !important; */
+    border-radius: 2px !important;
+}
+
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 12px 20px !important;
+    color: var(--bs-list-group-color);
+    text-decoration: none;
+    background-color: var(--bs-list-group-bg);
+    border: none !important;
+    margin: 0px 10px !important;
+}
+
+@media(max-width:767px){
+    .investmentHeading{
+        font-size: 36px !important;
+        line-height: 46px !important;
+    }
+
+    .exploreBtn{
+        margin: 0px 20px !important;
+    }
+
+    .planWrapper{
+        padding: 0px !important;
+    }
+
+    .planDays{
+        padding: 5px 10px !important;
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+
+    .cardContent{
+        font-size: 14px !important;
+        padding: 8px !important;
+    }
+
+    .equalTo{
+        padding: 10px !important;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 992px){
+    .investmentHeading{
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+
+    .planWrapper{
+        padding: 0px !important;
+    }
+}

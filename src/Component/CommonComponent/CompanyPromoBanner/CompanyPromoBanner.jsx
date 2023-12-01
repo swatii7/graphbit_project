@@ -10,7 +10,7 @@ export default function CompanyPromoBanner() {
   return (
     <div className='bg-darkBlue'>
         <Container>
-        <div className='d-flex flex-wrap bg-blue' style={{padding:'20px', borderRadius:'4px'}}>
+        <div className='bannerContainer d-flex bg-blue' style={{padding:'20px', borderRadius:'4px'}}>
 <div className='bannerImgWrapper'>
     <img src={bannerImgOne} className='bannerImages' />
 </div>

@@ -337,6 +337,26 @@ input::placeholder{
     margin-left: 0px !important;
   }
 
+  .bannerImages{
+    width: 130px !important;
+    height: auto;
+   }
+
+   .bannerContainer{
+    overflow: hidden !important;
+   }
+
+   .coinSwapHeading{
+    font-size: 36px !important;
+   }
+
+   .sendMoneyWrapper{
+    margin: 30px 30px 0px 30px !important;
+   }
+
+   .servicesWrapper{
+    margin-top: 0px !important;
+   }
   
   }
 
@@ -349,4 +369,37 @@ input::placeholder{
         font-size: 36px !important;
         line-height: 48px !important;
       }
+
+      .homeBackground {
+        object-fit: cover !important; 
+        min-height: 600px !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .headerWrapper{
+      margin-top: -113px !important;
+    }
+
+    .bannerContainer{
+      overflow: hidden !important;
+    }
+
+    .bannerImgWrapper{
+      width: 140px !important;
+     }
+
+     .headingDiv{
+      font-size: 18px !important;
+     }
+
+     .coinSwapHeading{
+      font-size: 30px !important;
+      line-height: 40px !important;
+     }
+
+     .sendMoneyWrapper {
+      margin: 0px !important;
+  }
+
   }
