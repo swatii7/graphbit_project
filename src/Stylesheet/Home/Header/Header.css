@@ -171,7 +171,7 @@
   letter-spacing: 1px;
  }
 
- .walletWrapper{
+ .CoinSwapWrapper{
   padding: 130px 0px;
  }
 
@@ -403,3 +403,32 @@ input::placeholder{
   }
 
   }
+
+
+
+  /* second homepage2 style */
+
+  .homeHeaderImgWrapper{
+    position: relative;
+    z-index: 1;
+  }
+
+  .homepage2Wrapper .homeHeaderImgWrapper::after{
+    position: absolute;
+    background: #0D102D;
+    opacity: 0.9;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .headerWrapper2{
+    z-index: 2;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    margin-top: -120px;
+   }

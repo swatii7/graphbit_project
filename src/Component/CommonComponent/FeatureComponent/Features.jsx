@@ -2,6 +2,7 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import featureImg from '../../../assets/Header/featureImg.webp'
 import featureBgImg from '../../../assets/Header/circle.webp'
+import { AnimatedOnScroll } from 'react-animated-css-onscroll'
 
 export default function Features() {
 
@@ -26,16 +27,21 @@ export default function Features() {
 
   return (
     <div className='featureWrapper'>
+
         <Container>
             <Row className='flex-wrap'>
                 <Col>
                 <div>
-                    <div className='featureImageWrapper animate__animated animate__fadeInLeft'>
+                    <AnimatedOnScroll 
+                    animationIn="fadeInLeft">
+                    <div className='featureImageWrapper'>
                         <img src={featureImg} className='featureImg' />
                         <div className='circleImageWrapper rotateme'>
                             <img src={featureBgImg} className='featureBgImage' />
                         </div>
-                    </div>
+                    </div> 
+                    </AnimatedOnScroll>
+                   
                     </div>
                     </Col>
                 <Col>
@@ -47,8 +53,11 @@ export default function Features() {
                             {list.number}
                          </span>
                          <div className='pl-70'>
-                             <h4 className='featureTitle animate__animated animate__fadeInUp'>{list.title}</h4>
-                             <p className='featureDesc animate__animated animate__fadeInUp'>{list.description}</p>
+                            <AnimatedOnScroll animationIn="fadeInUp">
+                            <h4 className='featureTitle'>{list.title}</h4>
+                             <p className='featureDesc'>{list.description}</p>
+                            </AnimatedOnScroll>
+                             
                          </div>
                      </div>
                      )}

@@ -94,10 +94,10 @@ export default function Appbar() {
               show={state.openHomeDropdown}
             >
               <>
-                <NavDropdown.Item className="text-white" href="#action/3.1">
+                <NavDropdown.Item className="text-white" href="/">
                   Home 01
                 </NavDropdown.Item>
-                <NavDropdown.Item className="text-white" href="#action/3.1">
+                <NavDropdown.Item className="text-white" href="/home2">
                   Home 02
                 </NavDropdown.Item>
               </>

@@ -5,17 +5,21 @@ import logoTwo from '../../../assets/BlockchainLogo/logo-2.webp'
 import logoThree from '../../../assets/BlockchainLogo/logo-3.webp'
 import logoFour from '../../../assets/BlockchainLogo/logo-4.webp'
 import CustomButton from '../CustomButton/CustomButton'
-
+import { AnimatedOnScroll } from 'react-animated-css-onscroll'
+import "animate.css/animate.min.css";
 
 export default function BlockchainComponent() {
   return (
     <div className='bg-darkBlue blockchainWrapper'>
+
       <Container>
         <Row>
             <Col lg={6} md={12} sm={12}>
                 <Row>
                     <Col lg={6} md={6} sm={12}>
+                    <AnimatedOnScroll animationIn="fadeInUp">
                         <div className='servicesWrapper bg-blue'>
+                            
                             <div className='imgWrapper'>
                                 <img src={logoOne} />
                             </div>
@@ -27,8 +31,13 @@ export default function BlockchainComponent() {
                                 Aspernatur sit adipisci neque Redug Lagre dolor. consultants opt in to the projects
                                 </p>
                             </div>
+                            
+                            
                         </div>
+                        </AnimatedOnScroll>
+                        <AnimatedOnScroll animationIn="fadeInUp">
                         <div className='servicesWrapper bg-blue'>
+                          
                             <div className='imgWrapper'>
                                 <img src={logoTwo} />
                             </div>
@@ -40,11 +49,15 @@ export default function BlockchainComponent() {
                                 Aspernatur sit adipisci neque Redug Lagre dolor. consultants opt in to the projects
                                 </p>
                             </div>
+                         
                         </div>
+                        </AnimatedOnScroll>
                     </Col>
                     <Col lg={6} md={6} sm={12}>
+                    <AnimatedOnScroll animationIn="fadeInUp">
                     <div className='servicesWrapper bg-blue mt-100'>
-                            <div className='imgWrapper'>
+                           
+                           <div className='imgWrapper'>
                                 <img src={logoThree} />
                             </div>
                             <div>
@@ -55,8 +68,12 @@ export default function BlockchainComponent() {
                                 Aspernatur sit adipisci neque Redug Lagre dolor. consultants opt in to the projects
                                 </p>
                             </div>
+                           
                         </div>
+                        </AnimatedOnScroll>
+                        <AnimatedOnScroll animationIn="fadeInUp">
                         <div className='servicesWrapper bg-blue'>
+                            
                             <div className='imgWrapper'>
                                 <img src={logoFour} />
                             </div>
@@ -68,7 +85,9 @@ export default function BlockchainComponent() {
                                 Aspernatur sit adipisci neque Redug Lagre dolor. consultants opt in to the projects
                                 </p>
                             </div>
+                            
                         </div>
+                        </AnimatedOnScroll>
                     </Col>
                 </Row>
             </Col>

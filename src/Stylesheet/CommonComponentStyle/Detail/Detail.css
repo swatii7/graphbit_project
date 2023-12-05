@@ -12,14 +12,6 @@
     margin-top: 52px;
 }
 
-hr {
-    margin: 1rem 0px 1rem 10px !important;
-    color: #FF06b7 !important;
-    border: 0;
-    border-top: var(--bs-border-width) solid;
-    opacity: 1 !important;
-    width: 18%;
-}
 
 
 tr{
@@ -166,6 +158,7 @@ tr{
     --bs-form-invalid-color: #dc3545;
     --bs-form-invalid-border-color: #dc3545;
 }
+
 
 td{
     padding: 12px !important;

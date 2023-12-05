@@ -1,0 +1,76 @@
+.footerWrapper{
+    background-image: url(/src/assets/Footer/footer-bg.webp);
+    padding: 130px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.iconWrapper{
+    width: 40px;
+    height: 40px;
+}
+
+.iconWrapper img{
+    max-width: 100%;
+}
+
+.iconWrapper:hover .wow {
+    animation-name: none; /* Disable the default animation on hover */
+  }
+
+.iconWrapper:hover img{
+    animation: flipInY 0.8s ease-in-out !important;
+}
+
+.paymentOptionList{
+    padding: 7px 0px 10px 0px;
+}
+
+.paymentOptionList:hover{
+    color: #FF06B7 !important;
+}
+
+.paymentOptionList::marker{
+    color: #FF06B7 !important;
+}
+
+#emailInput{
+    background: transparent;
+    color: #fff !important;
+    border: 1px solid #1F1963;
+    font-size: 15px;
+    padding: 11px 15px;
+    height: 55px;
+    width: 100%;
+}
+
+#emailInput::placeholder{
+    color: #fff !important;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #80bdff !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25) !important;
+}
+
+.subscribeBtn{
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #FF06B7;
+    text-align: center;
+}
+
+.subscribeBtn:hover{
+    background-color: #AB46D2 !important;
+    border: 1px solid #AB46D2 !important;
+}
+
+.copyRight{
+    background-color: #131740;
+    padding: 25px 0px;
+}
+

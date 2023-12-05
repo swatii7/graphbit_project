@@ -109,7 +109,7 @@ export default function Detail() {
         keyDescription={tableOne}
          heading='Supply & Price Information'
           image={headerImg} 
-          showHorizontalLine= {true}
+          showHorizontalLine={true}
           />
 
           <CustomTable

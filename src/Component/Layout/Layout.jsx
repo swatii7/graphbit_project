@@ -1,5 +1,6 @@
 import React from 'react'
 import Appbar from '../CommonComponent/Appbar/Appbar'
+import Footer from '../CommonComponent/Footer/Footer'
 
 export default function Layout({children}) {
   return (
@@ -8,7 +9,7 @@ export default function Layout({children}) {
 <main>
     {children}
 </main>
-      
+      <Footer />
     </>
   )
 }

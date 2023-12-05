@@ -1,12 +1,14 @@
 import React, { useState } from 'react'
 import { Container, Row, Col, Button} from 'react-bootstrap'
 import CustomButton from '../CustomButton/CustomButton'
+import { AnimatedOnScroll } from 'react-animated-css-onscroll'
 
 
 export default function Plan({cardHeading, cardFooter, cardBadge, allBtns, isActive, handleClick, contentfordays }) {
 
   return (
-    <div className='bg-blue planWrapper'>
+    <AnimatedOnScroll animateIn="fadeInUp">
+<div className='bg-blue planWrapper'>
         <Container>
             <Row>
                 <Col lg={5} md={6} sm={12}>
@@ -39,12 +41,10 @@ export default function Plan({cardHeading, cardFooter, cardBadge, allBtns, isAct
                   <div>
                     <table>
                       <tbody>
-                      {console.log(contentfordays,'im in')}
                         {contentfordays.map((data,index)=>
                        
                         <tr key={index} className='mb-15'>
                         <td className='fs-17 fw-600 cardContent'>{data.key}</td>
-                        {console.log(data,'groot')}
                         <td className='text-pink equalTo'>=</td>
                         <td className='fs-18 fw-600 cardContent'>{data.value}</td>
                       </tr>
@@ -62,5 +62,7 @@ export default function Plan({cardHeading, cardFooter, cardBadge, allBtns, isAct
         </Container>
       
     </div>
+    </AnimatedOnScroll>
+    
   )
 }
