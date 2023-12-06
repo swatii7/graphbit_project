@@ -18,6 +18,10 @@
   line-height: 40px;
  }
 
+ .lh-32{
+  line-height: 32px;
+ }
+
  .w-half{
   width:50% !important
  }

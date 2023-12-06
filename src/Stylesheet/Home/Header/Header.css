@@ -15,6 +15,7 @@
 
    .homeBackground{
     width: 1600px;
+    max-width: 100%;
    }
 
    .homeHeading::selection{
@@ -44,12 +45,13 @@
     padding: 130px 0px;
     background-color: #050830;
     color: white;
+    overflow: hidden;
    }
 
-   .featureImageWrapper{
+   /* .featureImageWrapper{
     position: relative;
     z-index: 1;
-   }
+   } */
 
    .circleImageWrapper{
     position: absolute;
@@ -295,6 +297,29 @@ input::placeholder{
   margin-bottom: 0px;
 }
 
+.marginOnCard{
+  margin-top: -17px;
+}
+
+.customServiceCard::after{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: url(https://shtheme.com/demosd/graphbitwp/wp-content/themes/graphbit/img/feature/layer2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+  z-index: -1;
+}
+
+.imageClass{
+  width: 80px;
+  height: 80px;
+}
+
    @media (max-width: 767px) {
 
     .headerContainer{
@@ -322,6 +347,7 @@ input::placeholder{
 
   .buttonWrappper{
     justify-content: center !important;
+    padding: 0px 15px !important;
   }
 
   .featureImg{
@@ -336,6 +362,11 @@ input::placeholder{
     margin-top: 40px !important;
     margin-left: 0px !important;
   }
+
+  .circleImageWrapper{
+    left: 6px !important;
+    
+   }
 
   .bannerImages{
     width: 130px !important;
@@ -413,6 +444,7 @@ input::placeholder{
     z-index: 1;
   }
 
+
   .homepage2Wrapper .homeHeaderImgWrapper::after{
     position: absolute;
     background: #0D102D;
@@ -430,5 +462,73 @@ input::placeholder{
     left: 0;
     width: 100%;
     height: auto;
-    margin-top: -120px;
+    margin-top: -240px;
    }
+
+   .CardServiceWrapper{
+    background-color: #0D102D;
+    padding: 130px 0px;
+   }
+
+   .cardStyle{
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+   }
+
+   .cardStyle:hover{
+    background-color: #131740 !important;
+   }
+
+   .serviceCard{
+    padding: 36px 30px;
+    position: relative;
+    min-height: 310px;
+    border-radius: 4px;
+    z-index: 1;
+   }
+
+
+   @media(max-width:767px){
+
+    .homepage2Wrapper{
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      float: none;
+    }
+  
+    .homeHeaderImgWrapper{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      min-height: 950px;
+    }
+
+    .homeHeaderImgWrapper img{
+      width: 360px !important;
+    }
+
+    .headerWrapper2{
+     margin-top: -380px !important;
+     text-align: center !important;
+     }
+
+     .metaverseHeading{
+      font-size: 28px !important;
+     }
+
+     .homepage2Wrapper .homeHeaderImgWrapper::after{
+      opacity: 1 !important;
+     }
+
+     .contactBtn{
+      margin-left: 0px !important;
+     }
+
+     .btnDiv{
+      width: 50% !important;
+     }
+    
+   }
+

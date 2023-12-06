@@ -19,11 +19,28 @@
 .presaleTarget::before{
     content: "";
     position: absolute;
-    bottom: -18px;
-    right: 0;
+    bottom: 26px;
+    right: 29px;
     transform: translate(-50%);
     width: 1px;
     height: 15px;
     z-index: 1;
     background: #eee;
+}
+
+.softCapTarget::before{
+    content: "";
+    position: absolute;
+    bottom: 26px;
+    right: 29px;
+    transform: translate(-50%);
+    width: 1px;
+    height: 15px;
+    z-index: 1;
+    background: #eee;
+}
+
+.progress-bar{
+    background-color: #FF06B7 !important;
+    border-radius: 50px !important;
 }

@@ -1,12 +1,13 @@
 import React from 'react'
 import '../../../Stylesheet/CommonComponentStyle/TokenPurchaseSection/TokenPurchase.css'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, ProgressBar, Row } from 'react-bootstrap'
+import CustomButton from '../CustomButton/CustomButton'
 
 export default function PurchaseToken() {
   return (
     <div className='purchaseTokenWrapper'>
         <Container>
-            <Row className='align-items-baseline'>
+            <Row className='align-items-center'>
                 <Col sm={12} md={8} lg={8}>
                     <div className='mr-80'>
                         <p className='text-uppercase fs-17 fw-700 mb-10' style={{letterSpacing:'1px'}}>token ico pre-sale</p>
@@ -60,6 +61,17 @@ export default function PurchaseToken() {
                                 </span>
                             </div>
                         </div>
+                        <div className='mb-20'>
+                        <ProgressBar now={75} />
+                        </div>
+                        <div>
+                        <CustomButton
+                buttonTitle="Purchase Token"
+                className="pink-btn navButton transition-btn py-12 px-20 mt-15"
+              />
+                        </div>
+                        
+                        
                     </div>
                 </Col>
             </Row>
