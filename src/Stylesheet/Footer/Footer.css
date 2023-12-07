@@ -20,7 +20,8 @@
   }
 
 .iconWrapper:hover img{
-    animation: flipInY 0.8s ease-in-out !important;
+    transform: rotateY(360deg);
+    transition: all ease-in 0.4s;
 }
 
 .paymentOptionList{

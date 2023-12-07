@@ -1,0 +1,42 @@
+.expertTeamWrapper{
+    padding: 130px 0px 100px;
+    background-color: #101436;
+}
+
+.teamExpertHeading{
+    width: 900px;
+    margin: 0px auto 15px;
+}
+
+/* .teamCardContainer{
+    padding: 40px 30px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+} */
+
+.teamCardContainer::before{
+    background-image: url(/src/assets/BlockchainLogo/card-bg.webp);
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    z-index: -1;
+}
+
+.teamImgWrapper{
+    width: 200px;
+    height: 200px;
+    overflow:hidden;
+    border-radius: 50%;
+    border: 1px solid #232861;
+}
+
+.teamMemberImg{
+    object-fit: contain;
+    width: 200px !important;
+}
+

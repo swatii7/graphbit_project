@@ -106,7 +106,7 @@ export default function Appbar() {
             {/* About Us tab */}
             <Nav.Link
               className="text-white ml-30 fs-15 fw-bold"
-              href="#pricing"
+              href="/aboutus"
             >
               About Us
             </Nav.Link>

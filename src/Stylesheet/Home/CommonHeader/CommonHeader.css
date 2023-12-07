@@ -1,0 +1,66 @@
+.commonHeaderWrapper{
+    background-image: url(/src/assets/CommonSectionImg/header-bg.webp);
+    padding: 150px 0px 0px;
+}
+
+.containerWrapper{
+    background-image: url(/src/assets/CommonSectionImg/bgHeaderImg.webp);
+    padding: 130px 50px;
+    background-position: left top;
+    background-size: contain;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: var(--bs-breadcrumb-item-padding-x);
+    color: #ffffff !important;
+    content: '\f054' !important;
+  font-family: 'Font Awesome\ 5 Free' !important;
+}
+
+.breadcrumb-item a{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+.breadcrumb-item.active {
+    color: #fff !important;
+}
+
+
+.icons{
+    color: #fff;
+}
+
+.icons::before{
+    content: '\f007';
+    font-family: 'bootstrapIcon';
+    color: #fff;
+}
+
+.breadcrumb-item{
+    font-size: 18px;
+    line-height: 1;
+    padding: 15px 0px;
+}
+
+@media(max-width:767px){
+    .containerWrapper{
+        padding: 20px !important;
+        font-size: 32px !important;
+        line-height: 34px !important;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 990px){
+    .containerWrapper{
+        padding: 65px 40px !important;
+    }
+
+    .containerWrapper h2{
+        font-size: 34px !important;
+        line-height: 40px !important;
+    }
+}

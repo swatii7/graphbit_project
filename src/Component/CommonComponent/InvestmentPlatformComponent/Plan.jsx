@@ -21,7 +21,7 @@ export default function Plan({cardHeading, cardFooter, cardBadge, allBtns, isAct
                     <Button 
                     key={index}  
                     variant="outline-light" 
-                    className={isActive === item ? 'planDays active': 'planDays' } 
+                    className={isActive === item ? 'planDays buton-active': 'planDays' } 
                     onClick={()=>handleClick(item)}>{`${item} Days`}
                     </Button>
                       

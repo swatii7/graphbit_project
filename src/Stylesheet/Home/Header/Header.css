@@ -320,6 +320,11 @@ input::placeholder{
   height: 80px;
 }
 
+.imageClass:hover{
+  transform: rotateY(360deg);
+  transition: all ease-in 0.4s;
+}
+
    @media (max-width: 767px) {
 
     .headerContainer{

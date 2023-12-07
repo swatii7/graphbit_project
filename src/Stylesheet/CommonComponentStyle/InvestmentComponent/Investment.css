@@ -29,7 +29,7 @@
     color: #fff !important;
 }
 
-.active{
+.buton-active{
     background-color: #FF06B7 !important;
     border: 1px solid #FF06B7 !important;
     color: #fff !important;
@@ -71,6 +71,10 @@
     background-color: transparent !important;
     border: 1px solid #131740 !important;
     margin: 0px 10px !important;
+}
+
+.accordion-item{
+    border: none !important;
 }
 
 
@@ -358,6 +362,7 @@
 .accordion-button:not(.collapsed)::after {
     background-image: url(/src/assets/bgImg/dash.svg) !important;
     transform: var(--bs-accordion-btn-icon-transform);
+    box-shadow: none !important;
     /* bac: white !important; */
 }
 

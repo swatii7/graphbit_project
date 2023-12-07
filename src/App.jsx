@@ -7,12 +7,14 @@ import "./Stylesheet/CommonComponentStyle/Detail/Detail.css";
 import "./Stylesheet/Footer/Footer.css";
 import "./Stylesheet/Home/Header/Header.css";
 import "./Stylesheet/Navbar/Navbar.css";
+import AboutUs from "./Component/AboutUsPage/AboutUs";
 
 function App() {
   return (
     <Routes>
       <Route index element={<Home1 />} />
       <Route path="/home2" element={<Home2 />} />
+      <Route path="/aboutus" element={<AboutUs />} />
     </Routes>
   );
 }
