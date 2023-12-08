@@ -124,19 +124,19 @@ export default function Appbar() {
               onMouseLeave={() => handleHover("")}
               show={state.openPageDropdown}
             >
-              <NavDropdown.Item className="text-white" href="#action/3.1">
+              <NavDropdown.Item className="text-white" href="/coinInformation">
                 coin information
               </NavDropdown.Item>
-              <NavDropdown.Item className="text-white" href="#action/3.2">
+              <NavDropdown.Item className="text-white" href="/coinStacking">
                 coin stacking
               </NavDropdown.Item>
-              <NavDropdown.Item className="text-white" href="#action/3.1">
+              <NavDropdown.Item className="text-white" href="/services">
                 services
               </NavDropdown.Item>
-              <NavDropdown.Item className="text-white" href="#action/3.2">
+              <NavDropdown.Item className="text-white" href="/tokenIco">
                 token ico
               </NavDropdown.Item>
-              <NavDropdown.Item className="text-white" href="#action/3.2">
+              <NavDropdown.Item className="text-white" href="/faqs">
                 faq
               </NavDropdown.Item>
             </NavDropdown>
@@ -154,17 +154,14 @@ export default function Appbar() {
               onMouseLeave={() => handleHover("")}
               show={state.openBlogDropdown}
             >
-              <NavDropdown.Item className="text-white" href="#action/3.1">
+              <NavDropdown.Item className="text-white" href="/blogList">
                 blog list
               </NavDropdown.Item>
-              <NavDropdown.Item className="text-white" href="#action/3.2">
+              <NavDropdown.Item className="text-white" href="/blogGrid">
                 blog grid
               </NavDropdown.Item>
-              <NavDropdown.Item className="text-white" href="#action/3.1">
-                services
-              </NavDropdown.Item>
-              <NavDropdown.Item className="text-white" href="#action/3.2">
-                blog grid
+              <NavDropdown.Item className="text-white" href="/blogDetail">
+                blog details
               </NavDropdown.Item>
             </NavDropdown>
             {/*  */}

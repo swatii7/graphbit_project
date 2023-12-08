@@ -22,6 +22,10 @@
   line-height: 32px;
  }
 
+ .lh-34{
+  line-height: 34px;
+ }
+
  .w-half{
   width:50% !important
  }
@@ -760,6 +764,14 @@ padding-bottom: 0px;
 }
 
 /*  margin styles.css */
+.mr-5{
+  margin-right: 5px;
+}
+
+.mr-7{
+  margin-right: 7px;
+}
+
 .mr-10 {
   margin-right: 10px;
 }
@@ -1015,6 +1027,10 @@ padding-bottom: 0px;
 /* styles.css */
 .fs-12{
   font-size: 12px;
+}
+
+.fs-13{
+  font-size: 13px;
 }
 
 .fs-14{

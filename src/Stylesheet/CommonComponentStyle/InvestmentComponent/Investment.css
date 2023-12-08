@@ -77,6 +77,11 @@
     border: none !important;
 }
 
+.accordion-body{
+    background-color: #131740 !important;
+    padding-top: 0px !important;
+}
+
 
 :root, [data-bs-theme=light] {
     --bs-blue: #0d6efd;
@@ -364,6 +369,12 @@
     transform: var(--bs-accordion-btn-icon-transform);
     box-shadow: none !important;
     /* bac: white !important; */
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: var(--bs-accordion-active-bg);
+    box-shadow: none !important;
 }
 
 @media(max-width:767px){

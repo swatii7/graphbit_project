@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import CustomButton from '../CustomButton/CustomButton'
 import Plan from './Plan'
 
-export default function InvestmentPlatform() {
+export default function InvestmentPlatform({isVisible}) {
 
   const [silverIsActive, setSilverIsActive] = useState("15");
   const [goldIsActive, setGoldIsActive] = useState("30");
@@ -298,6 +298,30 @@ const contentfordaysInDiamondCard = getContentByDaysChangeinDiamondPlan(diamondI
       handleClick={handleDiamondCardBtn}
       contentfordays={contentfordaysInDiamondCard}
        />
+
+{isVisible?
+  <Plan cardHeading='Diamond staking plan'
+      cardFooter='Participet investor'
+      cardBadge='2130'
+      allBtns={diamondCardBtn}
+      isActive={diamondIsActive}
+      handleClick={handleDiamondCardBtn}
+      contentfordays={contentfordaysInDiamondCard}
+       />:
+       ''
+}
+
+{isVisible?
+  <Plan cardHeading='Diamond staking plan'
+      cardFooter='Participet investor'
+      cardBadge='2130'
+      allBtns={diamondCardBtn}
+      isActive={diamondIsActive}
+      handleClick={handleDiamondCardBtn}
+      contentfordays={contentfordaysInDiamondCard}
+       />:
+       ''
+}
       
      </Container>
     </div>

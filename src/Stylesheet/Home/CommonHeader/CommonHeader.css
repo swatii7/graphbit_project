@@ -5,7 +5,7 @@
 
 .containerWrapper{
     background-image: url(/src/assets/CommonSectionImg/bgHeaderImg.webp);
-    padding: 130px 50px;
+    padding: 130px 50px 97px;
     background-position: left top;
     background-size: contain;
     border-radius: 5px;
@@ -13,11 +13,14 @@
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
-    float: left;
-    padding-right: var(--bs-breadcrumb-item-padding-x);
+
     color: #ffffff !important;
-    content: '\f054' !important;
-  font-family: 'Font Awesome\ 5 Free' !important;
+    content: '' !important;
+}
+
+.chevronIcon{
+    width: 13px !important;
+    margin-right: 5px !important;
 }
 
 .breadcrumb-item a{

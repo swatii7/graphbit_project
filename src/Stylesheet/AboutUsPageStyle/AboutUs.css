@@ -8,15 +8,15 @@
     margin: 0px auto 15px;
 }
 
-/* .teamCardContainer{
+.teamCardContainer{
     padding: 40px 30px;
     border-radius: 4px;
     position: relative;
     z-index: 1;
-} */
+}
 
 .teamCardContainer::before{
-    background-image: url(/src/assets/BlockchainLogo/card-bg.webp);
+    background-image: url('	https://shtheme.com/demosd/graphbitwp/wp-content/themes/graphbit/img/feature/layer2.png');
     position: absolute;
     left: 0;
     top: 0;
@@ -25,6 +25,13 @@
     background-size: cover;
     background-position: left top;
     z-index: -1;
+    width: 325px;
+    height: 361px;
+}
+
+.teamCardContainer:hover .teamImgWrapper{
+    position: relative;
+    transition: all 0.5s ease 0s;
 }
 
 .teamImgWrapper{
@@ -33,10 +40,83 @@
     overflow:hidden;
     border-radius: 50%;
     border: 1px solid #232861;
+    position: relative;
+    margin: auto;
 }
 
 .teamMemberImg{
     object-fit: contain;
     width: 200px !important;
+    max-width: 100%;
+    transition: all 0.3s ease-out 0s;
 }
 
+.team-hover{
+    position: absolute;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    z-index: 3;
+}
+
+.team-hover li{
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.team-hover img{
+width: 40px;
+height: 40px;
+border-radius: 4px;
+display: block;
+margin: 0px 3px;
+transition: all 0.3s ease-out 0s;
+}
+
+.teamCardContainer:hover .team-hover{
+    opacity: 1;
+    top: 50%;
+    margin-top: -10px;
+    transition: all 0.5s ease 0s;
+}
+
+.teamCardContainer:hover .teamImgWrapper::after{
+    position: absolute;
+    content: '';
+    /* z-index: 3; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(19,23,63,0.80);
+}
+
+.team-hover {
+    padding-left: 0px !important;
+}
+
+@media (max-width: 767px){
+    .teamExpertHeading{
+        font-size: 36px !important;
+        line-height: 46px !important;
+        width: auto !important;
+    }
+    
+    .teamCardContainer{
+        padding: 30px 15px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 990px){
+    .expertTeamWrapper{
+        padding: 100px 70px !important;
+    }
+    .teamExpertHeading{
+        font-size: 50px !important;
+        line-height: 60px !important;
+        width: auto !important;
+    }
+}
