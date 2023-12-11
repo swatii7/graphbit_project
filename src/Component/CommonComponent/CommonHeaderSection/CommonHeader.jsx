@@ -17,7 +17,8 @@ export default function CommonHeader({ headerHeading, activePageName }) {
           <Breadcrumb className="align-items-center">
             <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
             <Breadcrumb.Item active>
-              <ChevronRight className="chevronIcon" />{activePageName}</Breadcrumb.Item>
+              <ChevronRight className="chevronIcon" />
+              {activePageName}</Breadcrumb.Item>
           </Breadcrumb>
         </div>
       </Container>
