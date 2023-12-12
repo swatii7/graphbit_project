@@ -134,10 +134,10 @@ color: #FF06B7 !important;
 .tagsButton{
     border-color:  #FF06B7 !important;
     border-radius: 3px !important;
-    padding: 5px 10px;
+    padding: 5px 10px !important;
     font-weight: 600 !important;
     font-size: 15px ;
-    margin: 5px 3px;
+    margin: 5px 3px ;
 }
 
 .tagsButton:hover{
@@ -211,4 +211,67 @@ color: #FF06B7 !important;
     padding: 20px;
     border-radius: 4px;
     position: relative;
+}
+
+.leftImageWrapper{
+    width: 40%;
+}
+
+.rightImageWrapper{
+    width: 60%;
+    padding: 0px 30px;
+}
+
+.cardGrid{
+    max-height: 132px;
+    width: 100%;
+}
+
+.blog-grid-date{
+    position: absolute;
+    top: 35%;
+    background-color: #FF06B7;
+    width: 100px;
+    height: 30px;
+    left: 10px;
+    text-align: center;
+    padding: 3px 5px;
+}
+
+.blogDetailsWrapper{
+    padding: 120px 0px;
+    background-color: #0D102D;
+}
+
+blockquote{
+    padding: 30px 40px 20px 80px;
+    margin-bottom: 20px;
+    position: relative;
+    font-style: italic;
+}
+
+.quoteIcon{
+    font-size: 50px;
+    margin-left: -56px;
+    position: absolute;
+    margin-top: -12px;
+}
+
+.gridImgContainer{
+    margin: 15px 0px 30px;
+    max-height: 350px;
+    width: 100%;
+}
+
+.gridButton{
+    border-color:  #FF06B7 !important;
+    border-radius: 3px !important;
+    padding: 7px 14px !important;
+    font-weight: 600 !important;
+    font-size: 15px ;
+}
+
+.gridButton:hover{
+    background-color: #AB46D2 !important;
+    border: 1px solid #AB46D2 !important;
 }
