@@ -1,13 +1,14 @@
 import React from 'react'
-import CommonHeader from '../CommonHeaderSection/CommonHeader'
+import CommonHeader from '../CommonComponent/CommonHeaderSection/CommonHeader'
 import { Col, Container, Row } from 'react-bootstrap'
-import cardOne from '../../../assets/BlogPageImg/b1.webp'
+import cardOne from '../../assets/BlogPageImg/b1.webp'
 import { PersonFill, Chat } from 'react-bootstrap-icons'
-import cardTwo from '../../../assets/BlogPageImg/b2.webp'
-import cardThree from '../../../assets/BlogPageImg/b3.webp'
-import cardFour from '../../../assets/BlogPageImg/b4.webp'
-import cardFive from '../../../assets/BlogPageImg/b5.webp'
-import cardSix from '../../../assets/BlogPageImg/b6.webp'
+import cardTwo from '../../assets/BlogPageImg/b2.webp'
+import cardThree from '../../assets/BlogPageImg/b3.webp'
+import cardFour from '../../assets/BlogPageImg/b4.webp'
+import cardFive from '../../assets/BlogPageImg/b5.webp'
+import cardSix from '../../assets/BlogPageImg/b6.webp'
+import ScrollToTop from 'react-scroll-to-top'
 
 
 export default function BlogGrid() {
@@ -43,6 +44,7 @@ export default function BlogGrid() {
 
   return (
     <section>
+      <ScrollToTop smooth color="#fff" />
       <CommonHeader
       headerHeading='Blog Grid'
       activePageName='Blog Grid' />

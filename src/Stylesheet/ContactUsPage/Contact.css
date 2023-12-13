@@ -1,0 +1,44 @@
+.contactWrapper{
+    padding: 120px 0px;
+    background-color: #0D102D;
+}
+
+.contactDetailWrapper{
+    padding: 30px 40px;
+}
+
+
+.inputFieldWrapper input::placeholder{
+    color: #495057 !important;
+}
+
+.inputFieldWrapper textarea::placeholder{
+    color: #495057 !important;
+}
+
+.inputFieldWrapper .form-control{
+    border: 1px solid #131740 !important;
+
+}
+
+.inputFieldWrapper input:focus-visible{
+border: none;
+outline: none;
+}
+
+.inputFieldWrapper input:focus{
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25) !important;
+}
+
+.inputFieldWrapper textarea:focus{
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25) !important;
+}
+
+ /* input:focus-visible{
+    outline: none !important;
+    border: none !important;
+} */
+/* 
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px !important;
+} */

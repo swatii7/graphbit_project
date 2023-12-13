@@ -16,6 +16,7 @@ import teamEightImg from '../../assets/AboutUsPageImg/Member-8_Img.webp'
 import fbIcon from '../../assets/Footer/facebookIcon.webp'
 import senderIcon from '../../assets/Footer/senderIcon.webp'
 import twitterIcon from '../../assets/Footer/twitter.webp'
+import ScrollToTop from 'react-scroll-to-top'
 
 export default function AboutUs() {
 
@@ -65,6 +66,7 @@ export default function AboutUs() {
 
   return (
     <section>
+      <ScrollToTop smooth color="#fff" />
         <CommonHeader headerHeading='About us' activePageName="About us" />
         <Features />
         <CompanyPromoBanner />

@@ -1,11 +1,11 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 import { Search, Tags } from 'react-bootstrap-icons'
-import cardOne from '../../../../assets/BlogPageImg/b1.webp'
-import cardTwo from '../../../../assets/BlogPageImg/b2.webp'
-import cardThree from '../../../../assets/BlogPageImg/b3.webp'
-import cardFour from '../../../../assets/BlogPageImg/b4.webp'
-import CustomPinkButton from '../../CustomButton/CustomPinkButton'
+import cardOne from '../../../assets/BlogPageImg/b1.webp'
+import cardTwo from '../../../assets/BlogPageImg/b2.webp'
+import cardThree from '../../../assets/BlogPageImg/b3.webp'
+import cardFour from '../../../assets/BlogPageImg/b4.webp'
+import CustomPinkButton from '../../CommonComponent/CustomButton/CustomPinkButton'
 
 
 export default function CommonBlogSection() {
@@ -137,8 +137,8 @@ export default function CommonBlogSection() {
                                 Tags
                                 </h4>
                                 <div>
-                                    {tagButtonArr.map((tags)=>
-                                    <CustomPinkButton 
+                                    {tagButtonArr.map((tags, index)=>
+                                    <CustomPinkButton  key={index}
                                     title={tags}
                                     className='tagsButton' />
                                     )}

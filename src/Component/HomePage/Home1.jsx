@@ -1,20 +1,15 @@
-import React, { useRef, useState, useEffect } from "react";
-import HomeHeader from "./HomeHeader.jsx/HomeHeader";
-import Features from "../CommonComponent/FeatureComponent/Features";
+import React, { useEffect, useRef, useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import CompanyPromoBanner from "../CommonComponent/CompanyPromoBanner/CompanyPromoBanner";
-import { Container, Row, Col, Overlay, Dropdown, Form } from "react-bootstrap";
-import {
-  Clock,
-  ArrowDownCircleFill,
-  ArrowDownShort,
-} from "react-bootstrap-icons";
-import CustomPinkButton from "../CommonComponent/CustomButton/CustomPinkButton";
 import BlockchainComponent from "../CommonComponent/CustomBlockchainComponent/BlockchainComponent";
 import Detail from "../CommonComponent/DetailComponent/Detail";
+import Faq from "../CommonComponent/FaqComponent/Faq";
+import Features from "../CommonComponent/FeatureComponent/Features";
+import SwapForm from "../CommonComponent/FormComponent/SwapForm";
 import InvestmentPlatform from "../CommonComponent/InvestmentPlatformComponent/InvestmentPlatform";
 import Wallet from "../CommonComponent/WalletComponent/Wallet";
-import Faq from "../CommonComponent/FaqComponent/Faq";
-import SwapForm from "../CommonComponent/FormComponent/SwapForm";
+import HomeHeader from "./HomeHeader.jsx/HomeHeader";
+import ScrollToTop from "react-scroll-to-top";
 
 export default function Home1() {
   const [show, setShow] = useState(false);
@@ -45,6 +40,7 @@ export default function Home1() {
 
   return (
     <>
+    <ScrollToTop smooth color="#fff" />
       <div className="homePageWrapper position-relative">
         <div className="bg-wrapper">
           <img

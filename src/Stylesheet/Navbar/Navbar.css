@@ -1,3 +1,7 @@
+.mean-nav{
+  display: none;
+}
+
 .navbar{
   top: 0;
   left: 0;
@@ -29,6 +33,10 @@
     background: rgba(19,23,64,0.80) !important;
 
    }
+
+   .plusIcon{
+    display: none;
+   }
    
    .navbar-collapse {
     flex-grow: 0 !important;
@@ -49,24 +57,24 @@
     background-position: 0%;
   }
 
-  .navbar-toggler-icon {
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    background-image: url(/src/assets/Header/list.png);
-    background-repeat: no-repeat;
-    background-position: center;
-   filter: brightness(14.5);
-    
+  .navbar-toggler svg{
+    color: #FF0060 !important;
   }
-  
+
   .navbar-toggler:focus{
     box-shadow: none !important ;
   }
 
 
   @media (max-width: 767px) {
+
+    .largeScreenNavbar{
+      display: none !important;
+    }
+
+    .mean-nav{
+      display: inline !important; 
+    }
 
     .tokenButton{
       display: none !important;
@@ -83,23 +91,33 @@
       margin-bottom: 10px !important;
     }
 
-  .navbar-collapse {
-    box-shadow: 0px 0px 3px #131740, -2px -2px 3px #131740 !important;
-    background: rgba(19,23,64,0.80) !important;
-    /* position: absolute !important; */
-    top: 76px !important;
-    right: 0 !important;
-    width: 81% !important;
-    font-size: 20px !important;
-    font-weight: 700 !important;
-  }
+    .navbar-collapse {
+      background: #131740 !important;
+    }
 
-  .nav-item{
-    font-size: 24px !important;
-  }
+    .nav-link{
+      font-size: 18px !important;
+      font-weight: 600 !important;
+    }
+
+    .drop-icon{
+      width: 25px !important;
+      height: 25px !important;
+    }
+
+    .container{
+      padding: 0px !important;
+    }
 
   .token-btn{
     font-size: 24px !important;
+  }
+  .chevronIcon{
+    display: none !important;
+  }
+
+  .plusIcon{
+    display: inline !important;
   }
 
 
@@ -107,7 +125,49 @@
   }
 
   @media (min-width: 768px) and (max-width: 990px){
+
+    .largeScreenNavbar{
+      display: none !important;
+    }
+    .mean-nav{
+      display: inline !important; 
+    }
+
+.mean-nav ul li a{
+  border-top: 1px solid #232861;
+  color: #fff;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 10px 5%;
+  text-align: left;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 90%;
+  font-size: 14px;
+}
+
     .tokenButton{
       display: block !important;
+      padding: 15px 0px !important;
+      margin-left: 272px !important;
     }
+
+    .navbar-collapse {
+      background: #131740 !important;
+
+    } 
+    .chevronIcon{
+      display: none !important;
+    }
+  
+    .plusIcon{
+      display: inline !important;
+    }
+    .drop-icon{
+      width: 25px !important;
+      height: 25px !important;
+    }
+
+
   }

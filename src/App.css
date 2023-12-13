@@ -107,6 +107,25 @@ border-radius: 0px !important;
   --bs-btn-hover-border-color: #FF06B7 !important;
 }
 
+.scroll-to-top{
+  background: #FF06B7 !important;
+  height: 52px !important;
+  width: 48px !important;
+  right: 50px !important;
+  bottom: 77px !important;
+  color: #fff !important;
+  font-size: 20px !important;
+  text-align: center !important;
+  border-radius: 3px !important;
+  line-height: 52px !important;
+  border: 1px solid #FF06B7 !important;
+  transition: 0.04s !important;
+}
+
+.scroll-to-top:hover{
+  background-color: #AB46D2 !important;
+  border-color: #AB46D2 !important;
+}
 
 @media (min-width:1320px) {
   .container{

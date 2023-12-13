@@ -275,3 +275,60 @@ blockquote{
     background-color: #AB46D2 !important;
     border: 1px solid #AB46D2 !important;
 }
+
+.commentHeading{
+    border-bottom: 1px solid #666;
+}
+
+.commentList{
+    border: 1px solid #131740;
+    padding: 30px;
+    position: relative;
+}
+
+.commentorImg img{
+    border-radius: 50%;
+    border: 1px solid #FF06B7;
+}
+
+.replyBtn{
+    border: 1px solid #FF06B7 !important;
+    padding: 7px 14px;
+    border-radius: 3px !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+}
+
+.replyBtnWrapper{
+    top: 32px;
+    right: 30px;
+}
+
+.form-control{
+    border: 1px solid #47484B !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+    height: 46px;
+
+}
+
+.form-control::placeholder{
+    color: #ddd !important;
+}
+
+.form-control:focus{
+    border-color: #47484B !important;
+    box-shadow: none !important;
+}
+
+.commentArea{
+    height: 200px !important;
+    padding: 10px !important;
+}
+
+.postCommentButton{
+    border: 1px solid #FF06B7;
+    padding: 12px 20px;
+    font-weight: 700;
+    font-size: 18px;
+}

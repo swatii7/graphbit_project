@@ -1,11 +1,12 @@
 import React from 'react'
-import CommonHeader from '../CommonHeaderSection/CommonHeader'
+import CommonHeader from '../CommonComponent/CommonHeaderSection/CommonHeader'
 import { Col, Container, Row } from 'react-bootstrap'
-import BlogOneImg from '../../../assets/BlogPageImg/b1.webp'
-import BlogTwoImg from '../../../assets/BlogPageImg/b2.webp'
-import BlogThreeImg from '../../../assets/BlogPageImg/b3.webp'
+import BlogOneImg from '../../assets/BlogPageImg/b1.webp'
+import BlogTwoImg from '../../assets/BlogPageImg/b2.webp'
+import BlogThreeImg from '../../assets/BlogPageImg/b3.webp'
 import { Chat, PersonFill} from 'react-bootstrap-icons'
 import CommonBlogSection from './CommonBlogSection/CommonBlogSection'
+import ScrollToTop from 'react-scroll-to-top'
 
 export default function BlogList() {
 
@@ -28,6 +29,7 @@ export default function BlogList() {
     ]
   return (
     <section>
+        <ScrollToTop smooth color="#fff" />
         <CommonHeader headerHeading='Blog' activePageName='Blog List' />
         <div className='blogListWrapper'>
             <Container>

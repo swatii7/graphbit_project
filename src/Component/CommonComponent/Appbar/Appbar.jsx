@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { ChevronDown } from "react-bootstrap-icons";
+import { ChevronDown, Plus } from "react-bootstrap-icons";
 import {Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
 import navLogo from "../../../assets/Header/navLogo.webp";
 import CustomButton from "../CustomButton/CustomButton";
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 export default function Appbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -54,6 +55,12 @@ export default function Appbar() {
     setIsDropdownOpen(false);
   };
 
+  const [isNavbarOpen, setNavbarOpen] = useState(false);
+
+  const handleNavbarToggle = () => {
+    setNavbarOpen(!isNavbarOpen);
+  };
+
   return (
     <Navbar bg={isScrolled? 'stick': ''}  collapseOnSelect expand="xl" className="appbar">
       <Container>
@@ -72,20 +79,23 @@ export default function Appbar() {
               />
             </div>
        
-        <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
-          className="toggler"
-        />
-        <Navbar.Collapse id="responsive-navbar-nav">
-       
-          <Nav className="me-auto px-15 text-uppercase align-items-center">
+            <Navbar.Toggle
+        aria-controls="responsive-navbar-nav"
+        className="toggler"
+        onClick={handleNavbarToggle}
+      >
+        {isNavbarOpen ? <FaTimes /> : <FaBars />}
+      </Navbar.Toggle>
+      <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="largeScreenNavbar px-15 text-uppercase align-items-center">
             {/* Home tabisDropdownOpen */}
 
             <NavDropdown
               className="text-white ml-30 fs-15 fw-bold"
               title={
                 <>
-                  Home <ChevronDown className="icon text-white fs-14 fw-900" />
+                  Home  <ChevronDown className="drop-icon chevronIcon text-white fs-14 fw-900" /> 
+                   
                 </>
               }
               id="collapsible-nav-dropdown"
@@ -167,18 +177,143 @@ export default function Appbar() {
             {/*  */}
             <Nav.Link
               className="text-white ml-30 fs-15 fw-bold"
-              href="#pricing"
+              href="/contactUs"
             >
               contact Us
             </Nav.Link>
             <div className="py-40 ml-60 d-md-none d-lg-flex">
+              <a href="/contactUs">
               <CustomButton
                 className="pink-btn navButton token-btn transition-btn py-8 px-20"
                 buttonTitle="Buy Token"
               />
+              </a>
+             
             </div>
           </Nav>
+
+          <nav className="mean-nav">
+      <ul className="list-none">
+        <li className="">
+          <a
+            title="Home"
+            className="text-white text-decoration-none"
+            href="#"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Home
+          </a>
+          <ul className="submenu" style={{ display: 'none' }}>
+            <li className="">
+              <a title="Home 01"
+              className="text-white text-decoration-none"
+               href="/">
+                Home 01
+              </a>
+            </li>
+            <li className="">
+              <a title="Home 02"
+               className="text-white text-decoration-none"
+               href="/home2">
+                Home 02
+              </a>
+            </li>
+          </ul>
+          <a className="mean-expand text-white text-decoration-none"  href="#" style={{ fontSize: '18px' }}>
+            +
+          </a>
+        </li>
+        <li className="">
+          <a title="About Us" className="text-white text-decoration-none" href="/aboutus">
+            About Us
+          </a>
+        </li>
+        <li className="">
+          <a
+            title="Pages"
+            className="text-white text-decoration-none"
+            href="#"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Pages
+          </a>
+          <ul className="submenu" style={{ display: 'none' }}>
+            <li className="">
+              <a title="Coin Information" className="text-white text-decoration-none" href="/coinInformation">
+                Coin Information
+              </a>
+            </li>
+            <li className="">
+              <a title="Coin Stacking" className="text-white text-decoration-none" href="/coinStacking">
+                Coin Stacking
+              </a>
+            </li>
+            <li className="">
+              <a title="Services" className="text-white text-decoration-none" href="/services">
+                Services
+              </a>
+            </li>
+            <li className="">
+              <a title="Token Ico" className="text-white text-decoration-none" href="/tokenIco">
+                Token Ico
+              </a>
+            </li>
+            <li className="">
+              <a title="FAQ" className="text-white text-decoration-none" href="/faqs">
+                FAQ
+              </a>
+            </li>
+          </ul>
+          <a className="mean-expand text-white text-decoration-none" href="#" style={{ fontSize: '18px' }}>
+            +
+          </a>
+        </li>
+        <li className="">
+          <a
+            title="Blog"
+            className="text-white text-decoration-none"
+            href="#"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Blog
+          </a>
+          <ul className="submenu" style={{ display: 'none' }}>
+            <li className="">
+              <a title="Blog List" className="text-white text-decoration-none" href="/blogList">
+                Blog List
+              </a>
+            </li>
+            <li className="">
+              <a title="Blog Grid" className="text-white text-decoration-none" href="/blogGrid">
+                Blog Grid
+              </a>
+            </li>
+            <li className="">
+              <a title="Blog Details" className="text-white text-decoration-none" href="/blogDetail">
+                Blog Details
+              </a>
+            </li>
+          </ul>
+          <a className="mean-expand text-white text-decoration-none" href="#" style={{ fontSize: '18px' }}>
+            +
+          </a>
+        </li>
+        <li className="">
+          <a title="Contact Us" className="text-white text-decoration-none" href="/contactUs">
+            Contact Us
+          </a>
+        </li>
+      </ul>
+    </nav>
         </Navbar.Collapse>
+
+    
        
        
       </Container>

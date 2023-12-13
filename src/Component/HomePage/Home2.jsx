@@ -17,10 +17,12 @@ import ecommerceImg from "../../assets/BlockchainLogo/ecommerce-image.webp"
 import tokenImg from "../../assets/BlockchainLogo/TokenImage.webp"
 import InvestmentPlatform from '../CommonComponent/InvestmentPlatformComponent/InvestmentPlatform'
 import Wallet from '../CommonComponent/WalletComponent/Wallet'
+import ScrollToTop from 'react-scroll-to-top'
 
 export default function Home2() {
   return (
     <>
+    <ScrollToTop smooth color="#fff" />
     <div className='homepage2Wrapper'>
         <div className='homeHeaderImgWrapper'>
         <img src={homeBgImg} />

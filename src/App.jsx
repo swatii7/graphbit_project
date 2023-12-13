@@ -14,9 +14,10 @@ import CoinStacking from "./Component/PagesComponent/CoinStacking";
 import AllServices from "./Component/PagesComponent/AllServices";
 import TokenIco from "./Component/PagesComponent/TokenIco";
 import FaqPage from "./Component/PagesComponent/FaqPage";
-import BlogList from "./Component/CommonComponent/BlogPage/BlogList";
-import BlogGrid from "./Component/CommonComponent/BlogPage/BlogGrid";
-import BlogDetails from "./Component/CommonComponent/BlogPage/BlogDetails"
+import BlogList from "./Component/BlogPage/BlogList";
+import BlogGrid from "./Component/BlogPage/BlogGrid";
+import BlogDetails from "./Component/BlogPage/BlogDetails"
+import ContactPage from "./Component/ContactPage/ContactPage";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <Route path="/blogList" element={<BlogList />} />
       <Route path="/blogGrid" element={<BlogGrid />} />
       <Route path="/blogDetail" element={<BlogDetails />} />
+      <Route path="/contactUs" element={<ContactPage />} />
     </Routes>
   );
 }

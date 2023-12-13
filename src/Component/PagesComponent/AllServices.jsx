@@ -11,10 +11,12 @@ import launchpadImg from '../../assets/BlockchainLogo/launchpadimg.webp'
 import ecommerceImg from '../../assets/BlockchainLogo/ecommerce-image.webp'
 import tokenImg from '../../assets/BlockchainLogo/TokenImage.webp'
 import Wallet from '../CommonComponent/WalletComponent/Wallet'
+import ScrollToTop from 'react-scroll-to-top'
 
 export default function AllServices() {
   return (
     <div>
+      <ScrollToTop smooth color="#fff" />
       <CommonHeader headerHeading='All Services' activePageName='All Services' />
       <BlockchainComponent />
       <div className='CardServiceWrapper'>
