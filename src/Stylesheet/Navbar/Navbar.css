@@ -133,18 +133,46 @@
       display: inline !important; 
     }
 
+    .mean-nav ul{
+      margin-bottom: 0 !important;
+    }
+
+    mean-nav ul li {
+      position: relative;
+      float: left;
+      width: 100%;
+  }
+
 .mean-nav ul li a{
   border-top: 1px solid #232861;
   color: #fff;
   display: block;
   float: left;
-  margin: 0;
+  margin: 0 0 0 -31px;
   padding: 10px 5%;
   text-align: left;
   text-decoration: none;
   text-transform: capitalize;
-  width: 90%;
+  width: 92%;
   font-size: 14px;
+}
+
+.mean-nav ul li a.mean-expand{
+  background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+  border-color: currentcolor currentcolor rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.4);
+  border-image: none;
+  border-style: none none solid solid;
+  border-width: medium medium 1px 1px;
+  font-weight: 700;
+  height: 42px;
+  margin-top: 1px;
+  padding: 7px 12px;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 49px;
+  z-index: 2;
+  position: absolute;
 }
 
     .tokenButton{

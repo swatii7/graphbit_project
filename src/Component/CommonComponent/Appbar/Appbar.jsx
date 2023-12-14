@@ -194,7 +194,7 @@ export default function Appbar() {
 
           <nav className="mean-nav">
       <ul className="list-none">
-        <li className="">
+        <li className="position-relative">
           <a
             title="Home"
             className="text-white text-decoration-none"
@@ -230,7 +230,7 @@ export default function Appbar() {
             About Us
           </a>
         </li>
-        <li className="">
+        <li className="position-relative">
           <a
             title="Pages"
             className="text-white text-decoration-none"
@@ -272,7 +272,7 @@ export default function Appbar() {
             +
           </a>
         </li>
-        <li className="">
+        <li  className="position-relative">
           <a
             title="Blog"
             className="text-white text-decoration-none"
