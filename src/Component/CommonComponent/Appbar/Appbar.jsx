@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { ChevronDown, Plus } from "react-bootstrap-icons";
+import { ChevronDown, Dash, Plus } from "react-bootstrap-icons";
 import {Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
 import navLogo from "../../../assets/Header/navLogo.webp";
 import CustomButton from "../CustomButton/CustomButton";
@@ -44,22 +44,38 @@ export default function Appbar() {
     setstate(updatedState);
   };
 
-  const handleMouseEnter = (key) => {
-    setstate({
-      [key]: true,
-    });
-    setIsDropdownOpen(true);
-  };
+  // const handleMouseEnter = (key) => {
+  //   setstate({
+  //     [key]: true,
+  //   });
+  //   setIsDropdownOpen(true);
+  // };
 
-  const handleMouseLeave = () => {
-    setIsDropdownOpen(false);
-  };
+  // const handleMouseLeave = () => {
+  //   setIsDropdownOpen(false);
+  // };
 
   const [isNavbarOpen, setNavbarOpen] = useState(false);
 
   const handleNavbarToggle = () => {
     setNavbarOpen(!isNavbarOpen);
   };
+
+  const [menu,setMenu]=useState({
+    home:true,
+    page:true,
+    blog:true
+  })
+
+
+const changeMenuState=(val)=>{
+  setMenu((preMenu)=>({
+    ...preMenu,
+    [val]: !preMenu[val],
+  }));
+}
+
+  
 
   return (
     <Navbar bg={isScrolled? 'stick': ''}  collapseOnSelect expand="xl" className="appbar">
@@ -194,10 +210,11 @@ export default function Appbar() {
 
           <nav className="mean-nav">
       <ul className="list-none">
-        <li className="position-relative">
+        <li className="homeList">
+          <div className="d-flex">
           <a
             title="Home"
-            className="text-white text-decoration-none"
+            className="text-white text-decoration-none "
             href="#"
             role="button"
             aria-haspopup="true"
@@ -205,35 +222,45 @@ export default function Appbar() {
           >
             Home
           </a>
-          <ul className="submenu" style={{ display: 'none' }}>
-            <li className="">
+          <div className={menu.home? 'menuIconWrapper': 'menu-bg menuIconWrapper'}>
+          {
+            menu.home? <Plus className="MenuIcon" onClick={()=>changeMenuState('home')} />:
+<Dash className="MenuIcon" onClick={()=>changeMenuState('home')} />
+          }
+          </div>
+         
+
+          </div>
+         
+         
+          <ul className={menu.home? 'd-none': ''}>
+            <li className="list-none">
               <a title="Home 01"
-              className="text-white text-decoration-none"
+              className={menu.home? 'text-white text-decoration-none': 'text-white text-decoration-none mean-expand'}
                href="/">
                 Home 01
               </a>
             </li>
-            <li className="">
+            <li className="list-none">
               <a title="Home 02"
-               className="text-white text-decoration-none"
+               className={menu.home? 'text-white text-decoration-none': 'text-white text-decoration-none mean-expand'}
                href="/home2">
                 Home 02
               </a>
             </li>
           </ul>
-          <a className="mean-expand text-white text-decoration-none"  href="#" style={{ fontSize: '18px' }}>
-            +
-          </a>
+         
         </li>
         <li className="">
           <a title="About Us" className="text-white text-decoration-none" href="/aboutus">
             About Us
           </a>
         </li>
-        <li className="position-relative">
+        <li className="pagesList">
+        <div className="d-flex">
           <a
             title="Pages"
-            className="text-white text-decoration-none"
+            className="text-white text-decoration-none "
             href="#"
             role="button"
             aria-haspopup="true"
@@ -241,68 +268,83 @@ export default function Appbar() {
           >
             Pages
           </a>
-          <ul className="submenu" style={{ display: 'none' }}>
-            <li className="">
-              <a title="Coin Information" className="text-white text-decoration-none" href="/coinInformation">
+          <div className={menu.page? 'menuIconWrapper': 'menu-bg menuIconWrapper'}>
+          {
+            menu.page? <Plus className="MenuIcon" onClick={()=>changeMenuState('page')} />:
+<Dash className="MenuIcon" onClick={()=>changeMenuState('page')} />
+          }
+          </div>
+          
+
+          </div>
+          <ul className={menu.page? 'd-none': ''}>
+            <li className="list-none">
+              <a title="Coin Information" className={menu.page? 'text-white text-decoration-none': 'text-white text-decoration-none mean-expand'} href="/coinInformation">
                 Coin Information
               </a>
             </li>
-            <li className="">
-              <a title="Coin Stacking" className="text-white text-decoration-none" href="/coinStacking">
+            <li className="list-none">
+              <a title="Coin Stacking" className={menu.page? 'text-white text-decoration-none': 'text-white text-decoration-none mean-expand'} href="/coinStacking">
                 Coin Stacking
               </a>
             </li>
-            <li className="">
-              <a title="Services" className="text-white text-decoration-none" href="/services">
+            <li className="list-none">
+              <a title="Services" className={menu.page? 'text-white text-decoration-none': 'text-white text-decoration-none mean-expand'} href="/services">
                 Services
               </a>
             </li>
-            <li className="">
-              <a title="Token Ico" className="text-white text-decoration-none" href="/tokenIco">
+            <li className="list-none">
+              <a title="Token Ico" className={menu.page? 'text-white text-decoration-none': 'text-white text-decoration-none mean-expand'} href="/tokenIco">
                 Token Ico
               </a>
             </li>
-            <li className="">
-              <a title="FAQ" className="text-white text-decoration-none" href="/faqs">
+            <li className="list-none">
+              <a title="FAQ" className={menu.page? 'text-white text-decoration-none': 'text-white text-decoration-none mean-expand'} href="/faqs">
                 FAQ
               </a>
             </li>
           </ul>
-          <a className="mean-expand text-white text-decoration-none" href="#" style={{ fontSize: '18px' }}>
-            +
-          </a>
+         
         </li>
-        <li  className="position-relative">
+        <li  className="blogList">
+        <div className="d-flex">
           <a
-            title="Blog"
-            className="text-white text-decoration-none"
+            title="Blogs"
+            className="text-white text-decoration-none "
             href="#"
             role="button"
             aria-haspopup="true"
             aria-expanded="false"
           >
-            Blog
+            Blogs
           </a>
-          <ul className="submenu" style={{ display: 'none' }}>
-            <li className="">
-              <a title="Blog List" className="text-white text-decoration-none" href="/blogList">
+          <div className={menu.blog? 'menuIconWrapper': 'menu-bg menuIconWrapper'}>
+          {
+            menu.blog? <Plus className="MenuIcon" onClick={()=>changeMenuState('blog')} />:
+<Dash className="MenuIcon" onClick={()=>changeMenuState('blog')} />
+          }
+          </div>
+          
+
+          </div>
+          <ul className={menu.blog? 'd-none': ''}>
+            <li className="list-none">
+              <a title="Blog List" className={menu.blog? 'text-white text-decoration-none': 'text-white text-decoration-none mean-expand'} href="/blogList">
                 Blog List
               </a>
             </li>
-            <li className="">
-              <a title="Blog Grid" className="text-white text-decoration-none" href="/blogGrid">
+            <li className="list-none">
+              <a title="Blog Grid" className={menu.blog? 'text-white text-decoration-none': 'text-white text-decoration-none mean-expand'} href="/blogGrid">
                 Blog Grid
               </a>
             </li>
-            <li className="">
-              <a title="Blog Details" className="text-white text-decoration-none" href="/blogDetail">
+            <li className="list-none">
+              <a title="Blog Details" className={menu.blog? 'text-white text-decoration-none': 'text-white text-decoration-none mean-expand'} href="/blogDetail">
                 Blog Details
               </a>
             </li>
           </ul>
-          <a className="mean-expand text-white text-decoration-none" href="#" style={{ fontSize: '18px' }}>
-            +
-          </a>
+          
         </li>
         <li className="">
           <a title="Contact Us" className="text-white text-decoration-none" href="/contactUs">

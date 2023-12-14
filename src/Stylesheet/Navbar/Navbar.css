@@ -126,6 +126,12 @@
 
   @media (min-width: 768px) and (max-width: 990px){
 
+    .homeList, .blogList, .pagesList{
+      position: relative;
+    }
+
+    
+
     .largeScreenNavbar{
       display: none !important;
     }
@@ -145,35 +151,40 @@
 
 .mean-nav ul li a{
   border-top: 1px solid #232861;
-  color: #fff;
   display: block;
-  float: left;
   margin: 0 0 0 -31px;
   padding: 10px 5%;
-  text-align: left;
-  text-decoration: none;
   text-transform: capitalize;
-  width: 92%;
+  width: 97%;
   font-size: 14px;
 }
 
-.mean-nav ul li a.mean-expand{
+.mean-expand{
+  margin: 0 0 0 -61px !important;
+  width: 100%;
+  padding: 10px 8% !important;
+}
+
+.menu-bg{
+  background: #FF0060 !important;
+}
+
+.MenuIcon{
+  height: 25px;
+  width: 20px;
+}
+
+.menuIconWrapper{
   background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
   border-color: currentcolor currentcolor rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.4);
-  border-image: none;
-  border-style: none none solid solid;
   border-width: medium medium 1px 1px;
-  font-weight: 700;
+  border-style: none none solid solid;
+  width: 52px;
   height: 42px;
-  margin-top: 1px;
-  padding: 7px 12px;
-  right: 0;
   text-align: center;
-  top: 0;
-  width: 49px;
-  z-index: 2;
-  position: absolute;
+  padding: 7px 12px;
 }
+
 
     .tokenButton{
       display: block !important;
